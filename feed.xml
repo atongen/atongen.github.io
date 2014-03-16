@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Eventually Consistent</title>
+		<description></description>
+		<link>http://www.andrewtongen.net</link>
+		<atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Winter Trip to Orr</title>
+				<description>&lt;p&gt;Grethe and I decided to have a little winter get-away at the cabin up north. This is a three-season cabin,
+so it was a bit like winter camping. There was no running water, but there was a stove that kept the cabin
+nice and toasty. There was even antique snowmobile races at Melgeorge&#39;s, the resort right down the road.
+We had a great time!&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
+
+</description>
+				<pubDate>Sun, 09 Mar 2014 00:00:00 -0600</pubDate>
+				<link>http://www.andrewtongen.net/2014/03/09/orr-winter.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2014/03/09/orr-winter.html</guid>
+			</item>
+		
+			<item>
+				<title>chruby: A Ruby Switcher I Can Live With</title>
+				<description>&lt;p&gt;I&#39;ve never really been happy with &lt;a href=&quot;https://rvm.io/&quot;&gt;rvm&lt;/a&gt;. It always felt like it was trying to do too much. And, I
+really didn&#39;t see the point of using gemsets when we have &lt;a href=&quot;http://gembundler.com/&quot;&gt;bundler&lt;/a&gt;. I used
+&lt;a href=&quot;https://github.com/sstephenson/rbenv/&quot;&gt;rbenv&lt;/a&gt; for a while, and it worked pretty well. But all I really wanted was a
+simple way to switch between ruby binaries. Basically, this boils down to updating &lt;code&gt;$PATH&lt;/code&gt;. Before I used
+rbenv, I had been doing this manually.&lt;/p&gt;
+
+&lt;p&gt;Enter &lt;a href=&quot;https://github.com/postmodern/chruby&quot;&gt;chruby&lt;/a&gt;. Chruby is a simple shell script does one thing, and does it well:
+switch between ruby versions. It does this by updating &lt;code&gt;$PATH&lt;/code&gt;. You can install your rubies anywhere you
+want and chruby provides a command to switch between them by updating &lt;code&gt;$PATH&lt;/code&gt;. By default it looks for
+rubies in &lt;code&gt;/opt/rubies&lt;/code&gt; or &lt;code&gt;~/.rubies&lt;/code&gt;. It will find your system ruby, if installed, and allow
+you to switch between that as well. It correctly sets &lt;code&gt;$GEM_HOME&lt;/code&gt; and &lt;code&gt;$GEM_PATH&lt;/code&gt;, which can be
+confusing if don&#39;t know what those environmental variable do.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m using chruby on most of my systems now, and I&#39;ll probably stick with it until the next greatest ruby switcher comes
+along. Give it a try yourself!&lt;/p&gt;
+</description>
+				<pubDate>Sat, 02 Mar 2013 00:00:00 -0600</pubDate>
+				<link>http://www.andrewtongen.net/2013/03/02/ruby-switcher-i-can-live-with.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2013/03/02/ruby-switcher-i-can-live-with.html</guid>
+			</item>
+		
+			<item>
+				<title>Added Disqus</title>
+				<description>&lt;p&gt;Today I added Disqus commenting to my blog! Go ahead, leave a comment, it&#39;ll be fun!
+Hopefully this will be useful to readers as I add more content to this site.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 02 Mar 2013 00:00:00 -0600</pubDate>
+				<link>http://www.andrewtongen.net/2013/03/02/add-disqus.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2013/03/02/add-disqus.html</guid>
+			</item>
+		
+			<item>
+				<title>2013 American Birkebeiner</title>
+				<description>&lt;p&gt;Yesterday I finished my first Birkie! The weather was great for skiing and the event was really well done.
+I plan on coming back next year to get an even better time!
+Thanks to all who donated to my JDRF fund raising campaign.&lt;/p&gt;
+
+&lt;p&gt;The photo above is from the lobby of the Telemark Lodge, which is the starting point for the race.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 24 Feb 2013 00:00:00 -0600</pubDate>
+				<link>http://www.andrewtongen.net/2013/02/24/american-birkebeiner.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2013/02/24/american-birkebeiner.html</guid>
+			</item>
+		
+			<item>
+				<title>Set Game</title>
+				<description>&lt;p&gt;I love the game &lt;a href=&quot;http://www.setgame.com/set/index.html&quot;&gt;Set&lt;/a&gt;. It&#39;s a challenging puzzle/card game where the players
+attempt to find patterns amongst a group of cards. I also wanted to work on a project where I could use HTML5, so I
+decided to implement the game of Set. The result can be found here:
+&lt;a href=&quot;http://set-game.andrewtongen.net&quot;&gt;http://set-game.andrewtongen.net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It&#39;s built using sinatra with em-websocket, and redis on the back-end. The js client is built with backbonejs and
+requirejs. Overall, it was a fun project and I learned a lot. You can check out the code for the project on
+&lt;a href=&quot;https://github.com/atongen/set_game&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 10 Feb 2013 00:00:00 -0600</pubDate>
+				<link>http://www.andrewtongen.net/2013/02/10/set-game.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2013/02/10/set-game.html</guid>
+			</item>
+		
+			<item>
+				<title>Alaskan Xmas!</title>
+				<description>&lt;p&gt;Grethe and I spent the holidays in Anchorage with her family.
+It was a great trip; we went skiing a lot and I got to play with my new camera.
+Thank you to the Denkewalters for putting us up and letting us hang around &lt;a href=&quot;http://www.alaskamountaineering.com/&quot;&gt;AMH&lt;/a&gt; the whole time!&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
+
+</description>
+				<pubDate>Sat, 12 Jan 2013 00:00:00 -0600</pubDate>
+				<link>http://www.andrewtongen.net/2013/01/12/ak-xmas.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2013/01/12/ak-xmas.html</guid>
+			</item>
+		
+			<item>
+				<title>I Reached My Goal</title>
+				<description>&lt;p&gt;I reached my goal of collecting $500 in donations for the JDRF! A huge thanks to everyone who donated. See you at the Berkie!&lt;/p&gt;
+
+&lt;p&gt;This doesn&#39;t mean that I can&#39;t still collect donations, though. ;)&lt;/p&gt;
+</description>
+				<pubDate>Sat, 10 Nov 2012 00:00:00 -0600</pubDate>
+				<link>http://www.andrewtongen.net/2012/11/10/i-reached-my-goal.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2012/11/10/i-reached-my-goal.html</guid>
+			</item>
+		
+			<item>
+				<title>Fall Trip to Lanesboro</title>
+				<description>&lt;p&gt;Here are some photos from our recent trip to Lanesboro, MN.
+We slow smoked a Boston Butt, and went packrafing on the Root River.
+We had great fall weather and the trip was awesome!&lt;/p&gt;
+
+&lt;p&gt;The photo gallery is powered by galleria.io, which is an open-source javascript library that uses jquery.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
+
+</description>
+				<pubDate>Sun, 28 Oct 2012 00:00:00 -0500</pubDate>
+				<link>http://www.andrewtongen.net/2012/10/28/labor-day-trip.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2012/10/28/labor-day-trip.html</guid>
+			</item>
+		
+			<item>
+				<title>Donate to the JDRF and support me in the Berkie!</title>
+				<description>&lt;p&gt;Hey everybody, I&#39;m really close to my goal of raising $500 for Type I Diabetes research.
+Please donate! It&#39;s tax deductible and 100% of your donation will go to the &lt;a href=&quot;http://www.jdrf.org/&quot;&gt;JDRF&lt;/a&gt;.
+To donate, you can follow the link above, or &lt;a href=&quot;http://jdrfevents.donordrive.com/index.cfm?fuseaction=donorDrive.participant&amp;amp;participantID=14586&quot;&gt;click here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The weather is getting colder now, so I&#39;m starting to get excited about skiing again.
+Below are a few photos of Grethe and me skiing. Hopefully they&#39;ll inspire you to donate and support me while
+I race in the &lt;a href=&quot;http://www.birkie.com/&quot;&gt;American Birkebeiner&lt;/a&gt; on February 23rd, 2013.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
+
+</description>
+				<pubDate>Sun, 28 Oct 2012 00:00:00 -0500</pubDate>
+				<link>http://www.andrewtongen.net/2012/10/28/jdrf-donations-berkie.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2012/10/28/jdrf-donations-berkie.html</guid>
+			</item>
+		
+			<item>
+				<title>First post!</title>
+				<description>&lt;p&gt;It&#39;s pretty funny when you&#39;re browsing the Internet and you run across a blog with one post titled &quot;First Post!&quot;&lt;/p&gt;
+
+&lt;p&gt;Well, here&#39;s another one. Hopefully I&#39;ll add some more content soon.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 18 Oct 2012 00:00:00 -0500</pubDate>
+				<link>http://www.andrewtongen.net/2012/10/18/first-post.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2012/10/18/first-post.html</guid>
+			</item>
+		
+	</channel>
+</rss>
