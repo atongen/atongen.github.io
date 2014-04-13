@@ -7,15 +7,34 @@
 		<atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Winter Trip to Orr</title>
-				<description>&lt;p&gt;Grethe and I decided to have a little winter get-away at the cabin up north. This is a three-season cabin,
-so it was a bit like winter camping. There was no running water, but there was a stove that kept the cabin
-nice and toasty. There was even antique snowmobile races at Melgeorge&#39;s, the resort right down the road.
-We had a great time!&lt;/p&gt;
+				<title>Jekyll Plugins Hosted on github.io</title>
+				<description>
+&lt;p&gt;Github is great for hosting your static site using jekyll. It’s free and is not ad-supported. One of the only drawbacks is that jekyll plugins won’t be run when you push code to your repo. There several workarounds for this limitation, one of which is described here: &lt;a href=&quot;http://www.sitepoint.com/jekyll-plugins-github/&quot;&gt;http://www.sitepoint.com/jekyll-plugins-github/&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
-
+&lt;p&gt;Another approach involves two git repos: one for the jekyll code, and another one for the generated static html/js/css/image assets. Assuming you already have a jekyll site setup, this is how you’d get started. After you’ve run &lt;code&gt;jekyll build&lt;/code&gt;, cd to _site and initialize a git repo, add all the files and commit:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;bash&#39;&gt;&lt;span class=&#39;nv&#39;&gt;$ &lt;/span&gt;&lt;span class=&#39;nb&#39;&gt;cd &lt;/span&gt;_site
+&lt;span class=&#39;nv&#39;&gt;$ &lt;/span&gt;git init .
+&lt;span class=&#39;nv&#39;&gt;$ &lt;/span&gt;git commit -a -m &lt;span class=&#39;s1&#39;&gt;&amp;#39;Intial commit&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now move the resuling .git directory so that it is a sibling of the jekyll directory, and give it a more descriptive name:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;bash&#39;&gt;&lt;span class=&#39;nv&#39;&gt;$ &lt;/span&gt;mv .git ../../atongen.github.io
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Finally, set the git core.worktree configuration item so that it points back to the static html in _site:&lt;/p&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;bash&#39;&gt;&lt;span class=&#39;nv&#39;&gt;$ &lt;/span&gt;&lt;span class=&#39;nb&#39;&gt;cd&lt;/span&gt; ../../atongen.github.io
+&lt;span class=&#39;nv&#39;&gt;$ &lt;/span&gt;git config core.worktree path/to/jekyll/_site
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;At this point, the contents of your static html directory will &lt;em&gt;look&lt;/em&gt; like a bare git repo, but it’s not! It just has a detached work tree. You can now push this repo to your hosted github user or project repo. The benefit here is that you can use plugins with jekyll and delete and re-build the entire _site directory without worrying about .git directory.&lt;/p&gt;
 </description>
+				<pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
+				<link>http://www.andrewtongen.net/2014/04/13/jekyll-plugins-on-github.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/jekyll-plugins-on-github.html</guid>
+			</item>
+		
+			<item>
+				<title>Winter Trip to Orr</title>
+				<description>
+&lt;p&gt;Grethe and I decided to have a little winter get-away at the cabin up north. This is a three-season cabin, so it was a bit like winter camping. There was no running water, but there was a stove that kept the cabin nice and toasty. There was even antique snowmobile races at Melgeorge’s, the resort right down the road. We had a great time!&lt;/p&gt;
+&lt;div class=&#39;gallery&#39; /&gt;</description>
 				<pubDate>Sun, 09 Mar 2014 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2014/03/09/orr-winter.html</link>
 				<guid isPermaLink="true">http://www.andrewtongen.net/2014/03/09/orr-winter.html</guid>
@@ -23,13 +42,9 @@ We had a great time!&lt;/p&gt;
 		
 			<item>
 				<title>2014 American Birkebeiner</title>
-				<description>&lt;p&gt;Back again after another year. This year&#39;s Birkie was cold with lots of new snow from the day before
-making the course difficult with race times slower than expected. I still had a blast, though and I
-plan on doing it again next year. Maybe I&#39;ll be able to convince Grethe to ski with me.&lt;/p&gt;
-
-&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
-
-</description>
+				<description>
+&lt;p&gt;Back again after another year. This year’s Birkie was cold with lots of new snow from the day before making the course difficult with race times slower than expected. I still had a blast, though and I plan on doing it again next year. Maybe I’ll be able to convince Grethe to ski with me.&lt;/p&gt;
+&lt;div class=&#39;gallery&#39; /&gt;</description>
 				<pubDate>Sat, 22 Feb 2014 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2014/02/22/american-birkebeiner.html</link>
 				<guid isPermaLink="true">http://www.andrewtongen.net/2014/02/22/american-birkebeiner.html</guid>
@@ -37,14 +52,9 @@ plan on doing it again next year. Maybe I&#39;ll be able to convince Grethe to s
 		
 			<item>
 				<title>St. John New Year</title>
-				<description>&lt;p&gt;We were lucky enough to take a nice trip to the US Virgin Islands over New Year&#39;s.
-We stayed on the island of St. John. The weather was great and we had a great
-time snorkeling and relaxing on the beach. It was a 100+ degree temperature swing
-when we got home! Hopefully some day we&#39;ll get to go back.&lt;/p&gt;
-
-&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
-
-</description>
+				<description>
+&lt;p&gt;We were lucky enough to take a nice trip to the US Virgin Islands over New Year’s. We stayed on the island of St. John. The weather was great and we had a great time snorkeling and relaxing on the beach. It was a 100+ degree temperature swing when we got home! Hopefully some day we’ll get to go back.&lt;/p&gt;
+&lt;div class=&#39;gallery&#39; /&gt;</description>
 				<pubDate>Sun, 29 Dec 2013 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2013/12/29/st-john-new-year.html</link>
 				<guid isPermaLink="true">http://www.andrewtongen.net/2013/12/29/st-john-new-year.html</guid>
@@ -52,15 +62,9 @@ when we got home! Hopefully some day we&#39;ll get to go back.&lt;/p&gt;
 		
 			<item>
 				<title>Packrafting Eureka Creek</title>
-				<description>&lt;p&gt;Over the 4th of July, my wife, my father-in-law and I decided to take a packrafting trip in Alaska.
-We did some research and found a cool trip that is described very well here:
-&lt;a href=&quot;http://edplumb.blogspot.com/2008/09/mcclaren-summit-to-eureka-creek.html&quot;&gt;McClaren Summit to Eureka Creek Traverse&lt;/a&gt;
-by Ed Plumb of Fairbanks, AK. It rained a little bit, but other than that, the trip was great.
-I can&#39;t wait to do some more packrafting in the near future.&lt;/p&gt;
-
-&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
-
-
+				<description>
+&lt;p&gt;Over the 4th of July, my wife, my father-in-law and I decided to take a packrafting trip in Alaska. We did some research and found a cool trip that is described very well here: &lt;a href=&quot;http://edplumb.blogspot.com/2008/09/mcclaren-summit-to-eureka-creek.html&quot;&gt;McClaren Summit to Eureka Creek Traverse&lt;/a&gt; by Ed Plumb of Fairbanks, AK. It rained a little bit, but other than that, the trip was great. I can’t wait to do some more packrafting in the near future.&lt;/p&gt;
+&lt;div class=&#39;gallery&#39; /&gt;
 &lt;p&gt;Oh, and we had to stop in &lt;a href=&quot;https://www.alaskamountaineering.com/&quot;&gt;Alaska Mountaineering &amp;amp; Hiking&lt;/a&gt; while we were in Anchorage!&lt;/p&gt;
 </description>
 				<pubDate>Wed, 03 Jul 2013 00:00:00 -0500</pubDate>
@@ -70,21 +74,12 @@ I can&#39;t wait to do some more packrafting in the near future.&lt;/p&gt;
 		
 			<item>
 				<title>chruby: A Ruby Switcher I Can Live With</title>
-				<description>&lt;p&gt;I&#39;ve never really been happy with &lt;a href=&quot;https://rvm.io/&quot;&gt;rvm&lt;/a&gt;. It always felt like it was trying to do too much. And, I
-really didn&#39;t see the point of using gemsets when we have &lt;a href=&quot;http://gembundler.com/&quot;&gt;bundler&lt;/a&gt;. I used
-&lt;a href=&quot;https://github.com/sstephenson/rbenv/&quot;&gt;rbenv&lt;/a&gt; for a while, and it worked pretty well. But all I really wanted was a
-simple way to switch between ruby binaries. Basically, this boils down to updating &lt;code&gt;$PATH&lt;/code&gt;. Before I used
-rbenv, I had been doing this manually.&lt;/p&gt;
+				<description>
+&lt;p&gt;I’ve never really been happy with &lt;a href=&quot;https://rvm.io/&quot;&gt;rvm&lt;/a&gt;. It always felt like it was trying to do too much. And, I really didn’t see the point of using gemsets when we have &lt;a href=&quot;http://gembundler.com/&quot;&gt;bundler&lt;/a&gt;. I used &lt;a href=&quot;https://github.com/sstephenson/rbenv/&quot;&gt;rbenv&lt;/a&gt; for a while, and it worked pretty well. But all I really wanted was a simple way to switch between ruby binaries. Basically, this boils down to updating &lt;code&gt;$PATH&lt;/code&gt;. Before I used rbenv, I had been doing this manually.&lt;/p&gt;
 
-&lt;p&gt;Enter &lt;a href=&quot;https://github.com/postmodern/chruby&quot;&gt;chruby&lt;/a&gt;. Chruby is a simple shell script does one thing, and does it well:
-switch between ruby versions. It does this by updating &lt;code&gt;$PATH&lt;/code&gt;. You can install your rubies anywhere you
-want and chruby provides a command to switch between them by updating &lt;code&gt;$PATH&lt;/code&gt;. By default it looks for
-rubies in &lt;code&gt;/opt/rubies&lt;/code&gt; or &lt;code&gt;~/.rubies&lt;/code&gt;. It will find your system ruby, if installed, and allow
-you to switch between that as well. It correctly sets &lt;code&gt;$GEM_HOME&lt;/code&gt; and &lt;code&gt;$GEM_PATH&lt;/code&gt;, which can be
-confusing if don&#39;t know what those environmental variable do.&lt;/p&gt;
+&lt;p&gt;Enter &lt;a href=&quot;https://github.com/postmodern/chruby&quot;&gt;chruby&lt;/a&gt;. Chruby is a simple shell script does one thing, and does it well: switch between ruby versions. It does this by updating &lt;code&gt;$PATH&lt;/code&gt;. You can install your rubies anywhere you want and chruby provides a command to switch between them by updating &lt;code&gt;$PATH&lt;/code&gt;. By default it looks for rubies in &lt;code&gt;/opt/rubies&lt;/code&gt; or &lt;code&gt;~/.rubies&lt;/code&gt;. It will find your system ruby, if installed, and allow you to switch between that as well. It correctly sets &lt;code&gt;$GEM_HOME&lt;/code&gt; and &lt;code&gt;$GEM_PATH&lt;/code&gt;, which can be confusing if don’t know what those environmental variable do.&lt;/p&gt;
 
-&lt;p&gt;I&#39;m using chruby on most of my systems now, and I&#39;ll probably stick with it until the next greatest ruby switcher comes
-along. Give it a try yourself!&lt;/p&gt;
+&lt;p&gt;I’m using chruby on most of my systems now, and I’ll probably stick with it until the next greatest ruby switcher comes along. Give it a try yourself!&lt;/p&gt;
 </description>
 				<pubDate>Sat, 02 Mar 2013 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2013/03/02/ruby-switcher-i-can-live-with.html</link>
@@ -93,8 +88,8 @@ along. Give it a try yourself!&lt;/p&gt;
 		
 			<item>
 				<title>Added Disqus</title>
-				<description>&lt;p&gt;Today I added Disqus commenting to my blog! Go ahead, leave a comment, it&#39;ll be fun!
-Hopefully this will be useful to readers as I add more content to this site.&lt;/p&gt;
+				<description>
+&lt;p&gt;Today I added Disqus commenting to my blog! Go ahead, leave a comment, it’ll be fun! Hopefully this will be useful to readers as I add more content to this site.&lt;/p&gt;
 </description>
 				<pubDate>Sat, 02 Mar 2013 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2013/03/02/add-disqus.html</link>
@@ -103,9 +98,8 @@ Hopefully this will be useful to readers as I add more content to this site.&lt;
 		
 			<item>
 				<title>2013 American Birkebeiner</title>
-				<description>&lt;p&gt;Yesterday I finished my first Birkie! The weather was great for skiing and the event was really well done.
-I plan on coming back next year to get an even better time!
-Thanks to all who donated to my JDRF fund raising campaign.&lt;/p&gt;
+				<description>
+&lt;p&gt;Yesterday I finished my first Birkie! The weather was great for skiing and the event was really well done. I plan on coming back next year to get an even better time! Thanks to all who donated to my JDRF fund raising campaign.&lt;/p&gt;
 
 &lt;p&gt;The photo above is from the lobby of the Telemark Lodge, which is the starting point for the race.&lt;/p&gt;
 </description>
@@ -116,14 +110,10 @@ Thanks to all who donated to my JDRF fund raising campaign.&lt;/p&gt;
 		
 			<item>
 				<title>Set Game</title>
-				<description>&lt;p&gt;I love the game &lt;a href=&quot;http://www.setgame.com/set/index.html&quot;&gt;Set&lt;/a&gt;. It&#39;s a challenging puzzle/card game where the players
-attempt to find patterns amongst a group of cards. I also wanted to work on a project where I could use HTML5, so I
-decided to implement the game of Set. The result can be found here:
-&lt;a href=&quot;http://set-game.andrewtongen.net&quot;&gt;http://set-game.andrewtongen.net&lt;/a&gt;.&lt;/p&gt;
+				<description>
+&lt;p&gt;I love the game &lt;a href=&quot;http://www.setgame.com/set/index.html&quot;&gt;Set&lt;/a&gt;. It’s a challenging puzzle/card game where the players attempt to find patterns amongst a group of cards. I also wanted to work on a project where I could use HTML5, so I decided to implement the game of Set. The result can be found here: &lt;a href=&quot;http://set-game.andrewtongen.net&quot;&gt;http://set-game.andrewtongen.net&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;It&#39;s built using sinatra with em-websocket, and redis on the back-end. The js client is built with backbonejs and
-requirejs. Overall, it was a fun project and I learned a lot. You can check out the code for the project on
-&lt;a href=&quot;https://github.com/atongen/set_game&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It’s built using sinatra with em-websocket, and redis on the back-end. The js client is built with backbonejs and requirejs. Overall, it was a fun project and I learned a lot. You can check out the code for the project on &lt;a href=&quot;https://github.com/atongen/set_game&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 10 Feb 2013 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2013/02/10/set-game.html</link>
@@ -132,27 +122,12 @@ requirejs. Overall, it was a fun project and I learned a lot. You can check out 
 		
 			<item>
 				<title>Alaskan Xmas!</title>
-				<description>&lt;p&gt;Grethe and I spent the holidays in Anchorage with her family.
-It was a great trip; we went skiing a lot and I got to play with my new camera.
-Thank you to the Denkewalters for putting us up and letting us hang around &lt;a href=&quot;http://www.alaskamountaineering.com/&quot;&gt;AMH&lt;/a&gt; the whole time!&lt;/p&gt;
-
-&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
-
-</description>
+				<description>
+&lt;p&gt;Grethe and I spent the holidays in Anchorage with her family. It was a great trip; we went skiing a lot and I got to play with my new camera. Thank you to the Denkewalters for putting us up and letting us hang around &lt;a href=&quot;http://www.alaskamountaineering.com/&quot;&gt;AMH&lt;/a&gt; the whole time!&lt;/p&gt;
+&lt;div class=&#39;gallery&#39; /&gt;</description>
 				<pubDate>Sat, 12 Jan 2013 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2013/01/12/ak-xmas.html</link>
 				<guid isPermaLink="true">http://www.andrewtongen.net/2013/01/12/ak-xmas.html</guid>
-			</item>
-		
-			<item>
-				<title>I Reached My Goal</title>
-				<description>&lt;p&gt;I reached my goal of collecting $500 in donations for the JDRF! A huge thanks to everyone who donated. See you at the Berkie!&lt;/p&gt;
-
-&lt;p&gt;This doesn&#39;t mean that I can&#39;t still collect donations, though. ;)&lt;/p&gt;
-</description>
-				<pubDate>Sat, 10 Nov 2012 00:00:00 -0600</pubDate>
-				<link>http://www.andrewtongen.net/2012/11/10/i-reached-my-goal.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2012/11/10/i-reached-my-goal.html</guid>
 			</item>
 		
 	</channel>
