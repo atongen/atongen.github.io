@@ -57,12 +57,21 @@ c$$$cc$$$c $$$ "Y$c$$  $$,    $$ $$$$$$c    $$""""    Y$c$$$c$P         $$    $$
     <a href="/tags/ruby">ruby</a>
   </p>
   <div class="content">
-    
-<p>I’ve never really been happy with <a href="https://rvm.io/">rvm</a>. It always felt like it was trying to do too much. And, I really didn’t see the point of using gemsets when we have <a href="http://gembundler.com/">bundler</a>. I used <a href="https://github.com/sstephenson/rbenv/">rbenv</a> for a while, and it worked pretty well. But all I really wanted was a simple way to switch between ruby binaries. Basically, this boils down to updating <code>$PATH</code>. Before I used rbenv, I had been doing this manually.</p>
+    <p>I've never really been happy with <a href="https://rvm.io/">rvm</a>. It always felt like it was trying to do too much. And, I
+really didn't see the point of using gemsets when we have <a href="http://gembundler.com/">bundler</a>. I used
+<a href="https://github.com/sstephenson/rbenv/">rbenv</a> for a while, and it worked pretty well. But all I really wanted was a
+simple way to switch between ruby binaries. Basically, this boils down to updating <code>$PATH</code>. Before I used
+rbenv, I had been doing this manually.</p>
 
-<p>Enter <a href="https://github.com/postmodern/chruby">chruby</a>. Chruby is a simple shell script does one thing, and does it well: switch between ruby versions. It does this by updating <code>$PATH</code>. You can install your rubies anywhere you want and chruby provides a command to switch between them by updating <code>$PATH</code>. By default it looks for rubies in <code>/opt/rubies</code> or <code>~/.rubies</code>. It will find your system ruby, if installed, and allow you to switch between that as well. It correctly sets <code>$GEM_HOME</code> and <code>$GEM_PATH</code>, which can be confusing if don’t know what those environmental variable do.</p>
+<p>Enter <a href="https://github.com/postmodern/chruby">chruby</a>. Chruby is a simple shell script does one thing, and does it well:
+switch between ruby versions. It does this by updating <code>$PATH</code>. You can install your rubies anywhere you
+want and chruby provides a command to switch between them by updating <code>$PATH</code>. By default it looks for
+rubies in <code>/opt/rubies</code> or <code>~/.rubies</code>. It will find your system ruby, if installed, and allow
+you to switch between that as well. It correctly sets <code>$GEM_HOME</code> and <code>$GEM_PATH</code>, which can be
+confusing if don't know what those environmental variable do.</p>
 
-<p>I’m using chruby on most of my systems now, and I’ll probably stick with it until the next greatest ruby switcher comes along. Give it a try yourself!</p>
+<p>I'm using chruby on most of my systems now, and I'll probably stick with it until the next greatest ruby switcher comes
+along. Give it a try yourself!</p>
 
   </div>
 </div>

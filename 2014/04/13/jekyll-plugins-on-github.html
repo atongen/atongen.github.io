@@ -57,22 +57,41 @@ c$$$cc$$$c $$$ "Y$c$$  $$,    $$ $$$$$$c    $$""""    Y$c$$$c$P         $$    $$
     <a href="/tags/ruby">ruby</a>
   </p>
   <div class="content">
-    
-<p>Github is great for hosting your static site using jekyll. It’s free and is not ad-supported. One of the only drawbacks is that jekyll plugins won’t be run when you push code to your repo. There several workarounds for this limitation, one of which is described here: <a href="http://www.sitepoint.com/jekyll-plugins-github/">http://www.sitepoint.com/jekyll-plugins-github/</a>.</p>
+    <p>Github is great for hosting your static site using jekyll. It's free and is not ad-supported. One of the only
+drawbacks is that jekyll plugins won't be run when you push code to your repo. There several workarounds for
+this limitation, one of which is described here: <a href="http://www.sitepoint.com/jekyll-plugins-github/">http://www.sitepoint.com/jekyll-plugins-github/</a>.</p>
 
-<p>Another approach involves two git repos: one for the jekyll code, and another one for the generated static html/js/css/image assets. Assuming you already have a jekyll site setup, this is how you’d get started. After you’ve run <code>jekyll build</code>, cd to _site and initialize a git repo, add all the files and commit:</p>
-<div class='highlight'><pre><code class='bash'><span class='nv'>$ </span><span class='nb'>cd </span>_site
-<span class='nv'>$ </span>git init .
-<span class='nv'>$ </span>git commit -a -m <span class='s1'>&#39;Intial commit&#39;</span>
-</code></pre></div>
-<p>Now move the resuling .git directory so that it is a sibling of the jekyll directory, and give it a more descriptive name:</p>
-<div class='highlight'><pre><code class='bash'><span class='nv'>$ </span>mv .git ../../atongen.github.io
-</code></pre></div>
+<p>Another approach involves two git repos: one for the jekyll code, and another one for the generated static
+html/js/css/image assets. Assuming you already have a jekyll site setup, this is how you'd get started.
+After you've run <code>jekyll build</code>, cd to _site and initialize a git repo, add all the files and commit:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span><span class="nb">cd </span>_site
+<span class="nv">$ </span>git init .
+<span class="nv">$ </span>git commit -a -m <span class="s1">&#39;Intial commit&#39;</span>
+</code></pre>
+</div>
+
+
+<p>Now move the resuling .git directory so that it is a sibling of the jekyll directory,
+and give it a more descriptive name:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>mv .git ../../atongen.github.io
+</code></pre>
+</div>
+
+
 <p>Finally, set the git core.worktree configuration item so that it points back to the static html in _site:</p>
-<div class='highlight'><pre><code class='bash'><span class='nv'>$ </span><span class='nb'>cd</span> ../../atongen.github.io
-<span class='nv'>$ </span>git config core.worktree path/to/jekyll/_site
-</code></pre></div>
-<p>At this point, the contents of your static html directory will <em>look</em> like a bare git repo, but it’s not! It just has a detached work tree. You can now push this repo to your hosted github user or project repo. The benefit here is that you can use plugins with jekyll and delete and re-build the entire _site directory without worrying about .git directory.</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span><span class="nb">cd</span> ../../atongen.github.io
+<span class="nv">$ </span>git config core.worktree path/to/jekyll/_site
+</code></pre>
+</div>
+
+
+<p>At this point, the contents of your static html directory will <em>look</em> like a bare git repo, but it's not!
+It just has a detached work tree. You can now push this repo to your hosted github user or project repo.
+The benefit here is that you can use plugins with jekyll and delete and re-build the entire _site directory
+without worrying about .git directory.</p>
 
   </div>
 </div>
