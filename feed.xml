@@ -7,6 +7,17 @@
 		<atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>seen.js</title>
+				<description>&lt;p&gt;So &lt;a href=&quot;http://seenjs.io/&quot;&gt;seen.js&lt;/a&gt; seems pretty cool. I guess I mainly used it as an excuse to get coffeescript working for this blog!&lt;/p&gt;
+
+&lt;p&gt;&lt;canvas width=&quot;700&quot; height=&quot;500&quot; id=&quot;seen-canvas&quot;&gt;&lt;/canvas&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
+				<link>http://www.andrewtongen.net/2014/04/13/seen.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/seen.html</guid>
+			</item>
+		
+			<item>
 				<title>Jekyll Plugins Hosted on github.io</title>
 				<description>&lt;p&gt;Github is great for hosting your static site using jekyll. It&#39;s free and is not ad-supported. One of the only
 drawbacks is that jekyll plugins won&#39;t be run when you push code to your repo. There several workarounds for
@@ -312,22 +323,6 @@ Thanks to all who donated to my JDRF fund raising campaign.&lt;/p&gt;
 				<pubDate>Sun, 24 Feb 2013 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2013/02/24/american-birkebeiner.html</link>
 				<guid isPermaLink="true">http://www.andrewtongen.net/2013/02/24/american-birkebeiner.html</guid>
-			</item>
-		
-			<item>
-				<title>Set Game</title>
-				<description>&lt;p&gt;I love the game &lt;a href=&quot;http://www.setgame.com/set/index.html&quot;&gt;Set&lt;/a&gt;. It&#39;s a challenging puzzle/card game where the players
-attempt to find patterns amongst a group of cards. I also wanted to work on a project where I could use HTML5, so I
-decided to implement the game of Set. The result can be found here:
-&lt;a href=&quot;http://set-game.andrewtongen.net&quot;&gt;http://set-game.andrewtongen.net&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It&#39;s built using sinatra with em-websocket, and redis on the back-end. The js client is built with backbonejs and
-requirejs. Overall, it was a fun project and I learned a lot. You can check out the code for the project on
-&lt;a href=&quot;https://github.com/atongen/set_game&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;
-</description>
-				<pubDate>Sun, 10 Feb 2013 00:00:00 -0600</pubDate>
-				<link>http://www.andrewtongen.net/2013/02/10/set-game.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2013/02/10/set-game.html</guid>
 			</item>
 		
 	</channel>
