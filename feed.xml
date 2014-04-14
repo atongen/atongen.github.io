@@ -7,6 +7,19 @@
 		<atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>SVG+JS Whale</title>
+				<description>&lt;p&gt;I saw this one too and just had to see if I could add it to my requirejs setup. This was originally found &lt;a href=&quot;http://codepen.io/diegoleme/pen/rIokB&quot;&gt;here&lt;/a&gt;.
+The mouse position is a bit off.&lt;/p&gt;
+
+&lt;div id=&quot;whale&quot;&gt;&lt;/div&gt;
+
+</description>
+				<pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
+				<link>http://www.andrewtongen.net/2014/04/13/whale.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/whale.html</guid>
+			</item>
+		
+			<item>
 				<title>seen.js</title>
 				<description>&lt;p&gt;So &lt;a href=&quot;http://seenjs.io/&quot;&gt;seen.js&lt;/a&gt; seems pretty cool. I guess I mainly used it as an excuse to get coffeescript working for this blog!&lt;/p&gt;
 
@@ -310,19 +323,6 @@ Hopefully this will be useful to readers as I add more content to this site.&lt;
 				<pubDate>Sat, 02 Mar 2013 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2013/03/02/add-disqus.html</link>
 				<guid isPermaLink="true">http://www.andrewtongen.net/2013/03/02/add-disqus.html</guid>
-			</item>
-		
-			<item>
-				<title>2013 American Birkebeiner</title>
-				<description>&lt;p&gt;Yesterday I finished my first Birkie! The weather was great for skiing and the event was really well done.
-I plan on coming back next year to get an even better time!
-Thanks to all who donated to my JDRF fund raising campaign.&lt;/p&gt;
-
-&lt;p&gt;The photo above is from the lobby of the Telemark Lodge, which is the starting point for the race.&lt;/p&gt;
-</description>
-				<pubDate>Sun, 24 Feb 2013 00:00:00 -0600</pubDate>
-				<link>http://www.andrewtongen.net/2013/02/24/american-birkebeiner.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2013/02/24/american-birkebeiner.html</guid>
 			</item>
 		
 	</channel>
