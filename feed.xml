@@ -89,7 +89,7 @@ use, for example when securely accessing data and/or services remotely from a ho
 that uses a service oriented architecture. Since these are not public-facing, you simply generate a key and
 cert for each service, and then import the CA certificate into each client application. Now your network traffic
 is encrypted and you&#39;re in control of the chain of trust. You can even use the optional &quot;Organizational Unit (OU)&quot;
-field on the certificate to pass meta-data between applications in your SOA. Docker allows you to authicate clients
+field on the certificate to pass meta-data between applications in your SOA. Docker allows you to authenticate clients
 in a similar fashion, which is described &lt;a href=&quot;http://docs.docker.io/en/latest/examples/https/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here&#39;s how you&#39;d actually go about doing this. First, be sure you have a version of openssl that has been patched
