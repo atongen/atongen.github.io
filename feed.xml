@@ -89,7 +89,8 @@ use, for example when securely accessing data and/or services remotely from a ho
 that uses a service oriented architecture. Since these are not public-facing, you simply generate a key and
 cert for each service, and then import the CA certificate into each client application. Now your network traffic
 is encrypted and you&#39;re in control of the chain of trust. You can even use the optional &quot;Organizational Unit (OU)&quot;
-field on the certificate to pass meta-data between applications in your SOA.&lt;/p&gt;
+field on the certificate to pass meta-data between applications in your SOA. Docker allows you to authicate clients
+in a similar fashion, which is described &lt;a href=&quot;http://docs.docker.io/en/latest/examples/https/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here&#39;s how you&#39;d actually go about doing this. First, be sure you have a version of openssl that has been patched
 for Heartbleed:&lt;/p&gt;
@@ -184,46 +185,7 @@ Enter pass phrase &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;path/to/tonge
 
 &lt;p&gt;And you&#39;re done! You can now install the SSL cert and key on your webserver for encrypted traffic.&lt;/p&gt;
 
-&lt;p&gt;Oh, by the way, here&#39;s the certificate for the CA I just created:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;-----BEGIN CERTIFICATE-----
-MIIFxTCCA62gAwIBAgIJAKRrEJHU9LPhMA0GCSqGSIb3DQEBBQUAMHkxCzAJBgNV
-BAYTAlVTMRIwEAYDVQQIDAlNaW5uZXNvdGExFDASBgNVBAcMC01pbm5lYXBvbGlz
-MRwwGgYDVQQKDBNUb25nZW4gVGVjaG5vbG9naWVzMSIwIAYDVQQDDBlUb25nZW4g
-SW50ZXJuZXQgQXV0aG9yaXR5MB4XDTE0MDQxMzIwMDI0M1oXDTE3MDEzMTIwMDI0
-M1oweTELMAkGA1UEBhMCVVMxEjAQBgNVBAgMCU1pbm5lc290YTEUMBIGA1UEBwwL
-TWlubmVhcG9saXMxHDAaBgNVBAoME1RvbmdlbiBUZWNobm9sb2dpZXMxIjAgBgNV
-BAMMGVRvbmdlbiBJbnRlcm5ldCBBdXRob3JpdHkwggIiMA0GCSqGSIb3DQEBAQUA
-A4ICDwAwggIKAoICAQCstkgQyRv25g6Xi2T7a197L1aU3VrjANOQIt2cpp5J9QPT
-7h3DswcGcMilPmBW2BywaM6jt3qiQiGLd+l2dRFcBwo4mlFmREQGTWWjZbmi1E74
-PDbVyD2W7gO3UdoaGRKVWs6IbnyR72eV0idGOc2UrpX0yaenau7Cby2W4Xkpj8oz
-f+qCJM4aH/S27A6Ep6+p9jv5Mp4s75hj3O5LKWF6K0xv5FsCAll5DKED9Hr9x9Tl
-Faa9ndk56aa2zMc6xjr8xE/W+l9zRV9zPcLkaa8qDPowXz03A1OIpD23/qpR+jER
-67pZPmutNhZgNgiAgVhlmpzwwcWhdcWLES4UP0vNgO2KBMCGzwu/XWSzikCTt1cG
-nJDlLy84Lw1ywnoxwzb07L9KLU9mT4fhRupDC93Utc6x0Mn3SLtHR+tzCdEaD0ip
-KjedTq8gSHZePqpJ4loxwX4BJHjUNAa45CkXpKsygyA5G6ZIKl4UD0VRRZtjb69A
-eY6sKf0BMVM1OLPg6uOva3Doe7D93ilba6Zpk+J3QlEj6hUtPg/oHarc32FhhILu
-nwP4ORttZeFwVyzsGsuW9H3SnSdYmUmOE+nJQvIuPwM2ne0Rb3XeSzopj+RtqRyp
-71GVDA2Vl1ZprvlLACV48QMEE8H6fw0tqcy5oj3lTXebY0CJGIjoxnYwCTFBjQID
-AQABo1AwTjAdBgNVHQ4EFgQUMO+HcV27dUV080fRVN4IX8fDpQgwHwYDVR0jBBgw
-FoAUMO+HcV27dUV080fRVN4IX8fDpQgwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0B
-AQUFAAOCAgEAUnCzjusmLdhSsNemn+ZsfgF20Owrl7XLYCrETC8TS3SV0dpQ6rhc
-MNayAXd9r7mI/KErgrWE1inCyYgleX4JCERFsbAap4mHZZHu7GmE6+qt2/zaacWN
-GldLoNdyBLNJfC+KJcC400ZpkiEY7ckU6J15fweJFCJ2ACXfTXvZGtKY2zWrwQm+
-9FkQszozwlCcoSB/IpgBoJfgOvI/IUxm220pjcMUsLz0+FiKNvrNHiGxQ0wgybdK
-YPEbgEkEnmO7Z2q1NDVZFHj7yK6Zocvig7T7fvwmNy9xbexKdvRNAGeNtfQe5UGj
-4uJpnQT2vd5ZtmvS0kLkC4YSachZoVYFrdnPX4F8FOEKCL0HGR5GoWHa3uMLG+Ge
-kacgrtw9B/u4iKzFYKShQ+yBqN9fCgMKipHbAgjQgPS/UslKBzbH100M+Tlh4ANR
-KVK+grFm7sg7AXh7zXqezlfofqe+qlLMkdnA+E04Kgd2ekD2OdgclplncTK88RT/
-GuKA3CKHRoEYXSFi8yiW03ergxGiDYJwrfrtwLGrdADvZZxbwBi8vYW1020sqajz
-ZF0F0nltnrV/IoBiZ/NXtxF01JC/tSA74G+z0IBwLk8PhAomjAGt8UhiBg0mYUsm
-EYsRBaeBh7jQHc72+PB9kNc0mEuX6inMC3F3xFONxaogXKlwLwi8QVE&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
------END CERTIFICATE-----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-
-
+&lt;p&gt;Oh, by the way, &lt;a href=&quot;/files/tongenRootCA.pem&quot;&gt;here&#39;s&lt;/a&gt; the certificate for the CA I just created.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
 				<link>http://www.andrewtongen.net/2014/04/13/be-your-own-ca.html</link>
