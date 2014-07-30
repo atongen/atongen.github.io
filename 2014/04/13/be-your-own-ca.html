@@ -85,16 +85,14 @@ platform: debian-amd64
 options:  bn<span class="o">(</span>64,64<span class="o">)</span> rc4<span class="o">(</span>16x,int<span class="o">)</span> des<span class="o">(</span>idx,cisc,16,int<span class="o">)</span> blowfish<span class="o">(</span>idx<span class="o">)</span>
 compiler: cc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -m64 -DL_ENDIAN -DTERMIO -g -O2 -fstack-protector --param<span class="o">=</span>ssp-buffer-size<span class="o">=</span>4 -Wformat -Werror<span class="o">=</span>format-security -D_FORTIFY_SOURCE<span class="o">=</span>2 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wa,--noexecstack -Wall -DOPENSSL_NO_TLS1_2_CLIENT -DOPENSSL_MAX_TLS1_2_CIPHER_LENGTH<span class="o">=</span>50 -DMD32_REG_T<span class="o">=</span>int -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
 OPENSSLDIR: <span class="s2">&quot;/usr/lib/ssl&quot;</span>
-</code></pre>
-</div>
+</code></pre></div>
 
 
 <p>If it was built on April 7 or later, then you have a patched version. Now, generate the private key for your
 new CA. Be sure to include "-des3" so your key is password-protected.</p>
 
 <div class="highlight"><pre><code class="bash"><span class="nv">$ </span>openssl genrsa -des3 -out tongenRootCA.key 4096
-</code></pre>
-</div>
+</code></pre></div>
 
 
 <p>Be sure to keep this key secure. Now self-sign your own root CA key. This is apparently how all the big CA's do it.</p>
@@ -115,8 +113,7 @@ Organization Name <span class="o">(</span>eg, company<span class="o">)</span> <s
 Organizational Unit Name <span class="o">(</span>eg, section<span class="o">)</span> <span class="o">[]</span>:
 Common Name <span class="o">(</span>e.g. server FQDN or YOUR name<span class="o">)</span> <span class="o">[]</span>:Tongen Internet Authority
 Email Address <span class="o">[]</span>:
-</code></pre>
-</div>
+</code></pre></div>
 
 
 <p>Ok, now you're a CA! Congratulations! If you can somehow manage to get your cert to be shipped with any
@@ -125,8 +122,7 @@ unless you sign some SSL keys, so let's create one that we can sign. This part s
 if you've ever purchased an SSL certificate before.</p>
 
 <div class="highlight"><pre><code class="bash"><span class="nv">$ </span>openssl genrsa -out andrewtongen.net.key 2048
-</code></pre>
-</div>
+</code></pre></div>
 
 
 <p>Now generate the corresponding CSR:</p>
@@ -151,8 +147,7 @@ Please enter the following <span class="s1">&#39;extra&#39;</span> attributes
 to be sent with your certificate request
 A challenge password <span class="o">[]</span>:
 An optional company name <span class="o">[]</span>:
-</code></pre>
-</div>
+</code></pre></div>
 
 
 <p>Now for the fun part. We'll sign the SSL key we just generated with the CA certificate and key we generated earlier:</p>
@@ -162,8 +157,7 @@ Signature ok
 <span class="nv">subject</span><span class="o">=</span>/C<span class="o">=</span>US/ST<span class="o">=</span>Minnesota/L<span class="o">=</span>Minneapolis/O<span class="o">=</span>Tongen Technologies/CN<span class="o">=</span>*.andrewtongen.net
 Getting CA Private Key
 Enter pass phrase <span class="k">for </span>path/to/tongenRootCA.key:
-</code></pre>
-</div>
+</code></pre></div>
 
 
 <p>And you're done! You can now install the SSL cert and key on your webserver for encrypted traffic.</p>
@@ -181,7 +175,7 @@ Enter pass phrase <span class="k">for </span>path/to/tongenRootCA.key:
   
     <li><span>March 02, 2013</span> &raquo; <a href="/2013/03/02/ruby-switcher-i-can-live-with.html">chruby: A Ruby Switcher I Can Live With</a></li>
   
-    <li><span>February 10, 2013</span> &raquo; <a href="/2013/02/10/set-game.html">Set Game</a></li>
+    <li><span>July 04, 2014</span> &raquo; <a href="/2014/07/04/tanzania.html">Tanzania Trip</a></li>
   
 </ul>
 
@@ -206,6 +200,8 @@ Enter pass phrase <span class="k">for </span>path/to/tongenRootCA.key:
             <p><strong>Recent Posts</strong></p>
             <ul class="unstyled">
                 
+                <li><a href="/2014/07/04/tanzania.html">Tanzania Trip</a></li>
+                
                 <li><a href="/2014/04/13/whale.html">SVG+JS Whale</a></li>
                 
                 <li><a href="/2014/04/13/seen.html">seen.js</a></li>
@@ -223,8 +219,6 @@ Enter pass phrase <span class="k">for </span>path/to/tongenRootCA.key:
                 <li><a href="/2013/07/03/packrafting-eureka-creek.html">Packrafting Eureka Creek</a></li>
                 
                 <li><a href="/2013/03/02/ruby-switcher-i-can-live-with.html">chruby: A Ruby Switcher I Can Live With</a></li>
-                
-                <li><a href="/2013/03/02/add-disqus.html">Added Disqus</a></li>
                 
             </ul>
             <p><a href="/archive.html">All Posts</a></p>
@@ -245,7 +239,7 @@ Enter pass phrase <span class="k">for </span>path/to/tongenRootCA.key:
                 
                 <li><a href="/tags/ruby/index.html">ruby</a> (3)</li>
                 
-                <li><a href="/tags/travel/index.html">travel</a> (2)</li>
+                <li><a href="/tags/travel/index.html">travel</a> (3)</li>
                 
                 <li><a href="/tags/orr/index.html">orr</a> (1)</li>
                 

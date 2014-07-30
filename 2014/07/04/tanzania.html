@@ -11,16 +11,18 @@ c$$$cc$$$c $$$ "Y$c$$  $$,    $$ $$$$$$c    $$""""    Y$c$$$c$P         $$    $$
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Jekyll Plugins Hosted on github.io | Eventually Consistent</title>
+    <title>Tanzania Trip | Eventually Consistent</title>
     
     <meta name="viewport" content="width=device-width">
     <meta name="generator" content="jekyll"/>
     
-    <meta property="og:title" content="Jekyll Plugins Hosted on github.io"/>
+    <meta property="og:title" content="Tanzania Trip"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:url" content="http://www.andrewtongen.net/2014/04/13/jekyll-plugins-on-github.html"/>
+    <meta property="og:url" content="http://www.andrewtongen.net/2014/07/04/tanzania.html"/>
     <meta property="og:site_name" content="Eventually Consistent"/>
     <meta property="fb:admins" content="100002072057741"/>
+    
+    <meta property="og:image" content="https://farm4.staticflickr.com/3897/14770274304_c34500db1e_z.jpg"/>
     
     
     
@@ -50,46 +52,75 @@ c$$$cc$$$c $$$ "Y$c$$  $$,    $$ $$$$$$c    $$""""    Y$c$$$c$P         $$    $$
 
     <div class="row">
         <div class="span9">
-          <div id="2014-04-13-jekyll-plugins-on-github" class="post">
+          <div id="2014-07-04-tanzania" class="post">
   
-  <h3><a href="/2014/04/13/jekyll-plugins-on-github.html">Jekyll Plugins Hosted on github.io</a></h3>
+  <h3><a href="/2014/07/04/tanzania.html">Tanzania Trip</a></h3>
   <p class="author">
-    April 13, 2014
-    <a href="/tags/ruby">ruby</a>
+    July 04, 2014
+    <a href="/tags/travel">travel</a>
   </p>
   <div class="content">
-    <p>Github is great for hosting your static site using jekyll. It's free and is not ad-supported. One of the only
-drawbacks is that jekyll plugins won't be run when you push code to your repo. There several workarounds for
-this limitation, one of which is described here: <a href="http://www.sitepoint.com/jekyll-plugins-github/">http://www.sitepoint.com/jekyll-plugins-github/</a>.</p>
+    <p>When my sister Lucy told us that she'd be spending 2 months in Tanzania this summer,
+my wife and I thought, "Hey, that's cool, she should totally try to climb Kilimanjaro!"
+The more we thought about it, we realized that we should join her and climb it as well.
+We also realized that if we travelled all the way across the world to climb a mountain,
+we better take in all the culture, wildlife and natural beauty that Tanzania offered as well.</p>
 
-<p>Another approach involves two git repos: one for the jekyll code, and another one for the generated static
-html/js/css/image assets. Assuming you already have a jekyll site setup, this is how you'd get started.
-After you've run <code>jekyll build</code>, cd to _site and initialize a git repo, add all the files and commit:</p>
+<p>And so we did!</p>
 
-<div class="highlight"><pre><code class="bash"><span class="nv">$ </span><span class="nb">cd </span>_site
-<span class="nv">$ </span>git init .
-<span class="nv">$ </span>git commit -a -m <span class="s1">&#39;Intial commit&#39;</span>
-</code></pre></div>
+<h3>Safari</h3>
 
-
-<p>Now move the resuling .git directory so that it is a sibling of the jekyll directory,
-and give it a more descriptive name:</p>
-
-<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>mv .git ../../atongen.github.io
-</code></pre></div>
+<div class="gallery gallery-safari"></div>
 
 
-<p>Finally, set the git core.worktree configuration item so that it points back to the static html in _site:</p>
+<p>We started our trip to Tanzania with a night stay at <a href="http://www.springlandshotel.com/">The Springlands Hotel</a> in Moshi.
+Springlands is operated by <a href="https://www.zaratours.com/">Zara Tours</a>, as were all the hotels we stayed at on our safari.
+Our friend, Consea at <a href="http://www.summit-trails.com/">Summit Trails</a> helped us arrange the safari.</p>
 
-<div class="highlight"><pre><code class="bash"><span class="nv">$ </span><span class="nb">cd</span> ../../atongen.github.io
-<span class="nv">$ </span>git config core.worktree path/to/jekyll/_site
-</code></pre></div>
+<p>The first day we saw <a href="http://en.wikipedia.org/wiki/Lake_Manyara_National_Park">Lake Manyara National Park</a> and stayed at <a href="http://www.highviewhotel.com/">Highview Hotel</a>.
+The second day we went to the <a href="http://www.serengeti.org/">Serengeti National Park</a> and stayed in a <a href="http://www.wildcamps.com/camps.htm">Wild Camp</a>.
+On the third day we made our way to the <a href="http://www.wildcamps.com/ngorongoro.htm">Ngorongoro Wild Camp</a>, and on the forth day we
+saw the wilderness at the <a href="http://www.ngorongorocrater.org/">Ngorongoro Crater Conservation Area</a>.
+It was amazing to see that many large mamals living symbiotically in a relatively small area.</p>
+
+<p>After the safari, we met up with my sister Lucy, her friend Kasey, and their friend Omega back at the Springlands Hotel.
+Lucy and Kasey had met Omega while volunteering for <a href="http://www.darewomensfoundation.org/">The Dare Women's Foundation</a>.
+Having Omega with us was great: he really helped us absorb Tanzanian culture and the Swahili language.</p>
+
+<h3>Kilimanjaro Climb</h3>
+
+<div class="gallery gallery-kili"></div>
 
 
-<p>At this point, the contents of your static html directory will <em>look</em> like a bare git repo, but it's not!
-It just has a detached work tree. You can now push this repo to your hosted github user or project repo.
-The benefit here is that you can use plugins with jekyll and delete and re-build the entire _site directory
-without worrying about .git directory.</p>
+<p>In the morning, we met up with our guides at <a href="http://www.kilimanjarotravels-tz.com/">Kilimanjaro Travel Services</a>.
+They helped us organize our gear; then we piled into a van headed to the <a href="http://machame.com/machame-itinerary6.htm">Machame Gate</a>
+for a 6-day trek up Kilimanjaro.</p>
+
+<p>The trek was amazing and everyone in our party of four made it to the top! Even though the Machame route is thought of as
+more difficult than other routes (it's sometimes called the "whiskey route", as opposed to Marangu, which is called "Coca-Cola"),
+I'm glad we chose it because it offers excellent acclimatization,
+and you get to see several different ecosystems as you gain altitude,
+from rain forest up to the top of the mountain.</p>
+
+<p>We couldn't have been happier with our guides, Joshua and Simon. They had a tremendous amount of experience. Joshua told us
+that he's been climbing Kili for over 20 years. After we reached the Uhuru Peak, Simon took everyone else back down,
+while Joshua and I continued on to Reusch Crater.
+It took less than 1 hour to get there from the peak, but was surpisingly difficult at that altitude!</p>
+
+<h3>Marangu Home Stay</h3>
+
+<div class="gallery gallery-homestay"></div>
+
+
+<p>After we came down off the mountain, we were lucky enough to be able to stay with a family in the villiage of Marangu, located about 1 hour north-east of Moshi.
+Our hosts, Mama and Baba (Papa) Fina, were incredibly gracious! They taught us about local culture and how to cook traditional Tanzanian Chipati,
+and of course: how to speak Swahili. Almost everyone in Tanzania can speak at least three languages: 1) their tribal language (Chagga, in this case),
+2) Swahili, 3) English. Mama and Baba Fina ran a small hog farm, but also had cows, goats, rabbits, chickens and banana and coffee trees.
+I was amazed at how productive they were on their relatively small plot of land.</p>
+
+<p>Overall, we had an amazing experience in Tanazania. The wildlife and natural beauty found in this area rival that found anywhere else in the world.
+We also found Tanzanian and Swahili culture to be some of the most charming that we'd experienced in all our travels,
+and it's always good to see the world from someone else's perspective. Hopefully we'll be able to go back again some day!</p>
 
   </div>
 </div>
@@ -100,9 +131,9 @@ without worrying about .git directory.</p>
   
     <li><span>April 13, 2014</span> &raquo; <a href="/2014/04/13/be-your-own-ca.html">Be Your Own CA</a></li>
   
-    <li><span>October 18, 2012</span> &raquo; <a href="/2012/10/18/first-post.html">First post!</a></li>
+    <li><span>December 29, 2013</span> &raquo; <a href="/2013/12/29/st-john-new-year.html">St. John New Year</a></li>
   
-    <li><span>March 02, 2013</span> &raquo; <a href="/2013/03/02/ruby-switcher-i-can-live-with.html">chruby: A Ruby Switcher I Can Live With</a></li>
+    <li><span>July 03, 2013</span> &raquo; <a href="/2013/07/03/packrafting-eureka-creek.html">Packrafting Eureka Creek</a></li>
   
 </ul>
 

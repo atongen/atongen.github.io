@@ -7,6 +7,75 @@
 		<atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Tanzania Trip</title>
+				<description>&lt;p&gt;When my sister Lucy told us that she&#39;d be spending 2 months in Tanzania this summer,
+my wife and I thought, &quot;Hey, that&#39;s cool, she should totally try to climb Kilimanjaro!&quot;
+The more we thought about it, we realized that we should join her and climb it as well.
+We also realized that if we travelled all the way across the world to climb a mountain,
+we better take in all the culture, wildlife and natural beauty that Tanzania offered as well.&lt;/p&gt;
+
+&lt;p&gt;And so we did!&lt;/p&gt;
+
+&lt;h3&gt;Safari&lt;/h3&gt;
+
+&lt;div class=&quot;gallery gallery-safari&quot;&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We started our trip to Tanzania with a night stay at &lt;a href=&quot;http://www.springlandshotel.com/&quot;&gt;The Springlands Hotel&lt;/a&gt; in Moshi.
+Springlands is operated by &lt;a href=&quot;https://www.zaratours.com/&quot;&gt;Zara Tours&lt;/a&gt;, as were all the hotels we stayed at on our safari.
+Our friend, Consea at &lt;a href=&quot;http://www.summit-trails.com/&quot;&gt;Summit Trails&lt;/a&gt; helped us arrange the safari.&lt;/p&gt;
+
+&lt;p&gt;The first day we saw &lt;a href=&quot;http://en.wikipedia.org/wiki/Lake_Manyara_National_Park&quot;&gt;Lake Manyara National Park&lt;/a&gt; and stayed at &lt;a href=&quot;http://www.highviewhotel.com/&quot;&gt;Highview Hotel&lt;/a&gt;.
+The second day we went to the &lt;a href=&quot;http://www.serengeti.org/&quot;&gt;Serengeti National Park&lt;/a&gt; and stayed in a &lt;a href=&quot;http://www.wildcamps.com/camps.htm&quot;&gt;Wild Camp&lt;/a&gt;.
+On the third day we made our way to the &lt;a href=&quot;http://www.wildcamps.com/ngorongoro.htm&quot;&gt;Ngorongoro Wild Camp&lt;/a&gt;, and on the forth day we
+saw the wilderness at the &lt;a href=&quot;http://www.ngorongorocrater.org/&quot;&gt;Ngorongoro Crater Conservation Area&lt;/a&gt;.
+It was amazing to see that many large mamals living symbiotically in a relatively small area.&lt;/p&gt;
+
+&lt;p&gt;After the safari, we met up with my sister Lucy, her friend Kasey, and their friend Omega back at the Springlands Hotel.
+Lucy and Kasey had met Omega while volunteering for &lt;a href=&quot;http://www.darewomensfoundation.org/&quot;&gt;The Dare Women&#39;s Foundation&lt;/a&gt;.
+Having Omega with us was great: he really helped us absorb Tanzanian culture and the Swahili language.&lt;/p&gt;
+
+&lt;h3&gt;Kilimanjaro Climb&lt;/h3&gt;
+
+&lt;div class=&quot;gallery gallery-kili&quot;&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In the morning, we met up with our guides at &lt;a href=&quot;http://www.kilimanjarotravels-tz.com/&quot;&gt;Kilimanjaro Travel Services&lt;/a&gt;.
+They helped us organize our gear; then we piled into a van headed to the &lt;a href=&quot;http://machame.com/machame-itinerary6.htm&quot;&gt;Machame Gate&lt;/a&gt;
+for a 6-day trek up Kilimanjaro.&lt;/p&gt;
+
+&lt;p&gt;The trek was amazing and everyone in our party of four made it to the top! Even though the Machame route is thought of as
+more difficult than other routes (it&#39;s sometimes called the &quot;whiskey route&quot;, as opposed to Marangu, which is called &quot;Coca-Cola&quot;),
+I&#39;m glad we chose it because it offers excellent acclimatization,
+and you get to see several different ecosystems as you gain altitude,
+from rain forest up to the top of the mountain.&lt;/p&gt;
+
+&lt;p&gt;We couldn&#39;t have been happier with our guides, Joshua and Simon. They had a tremendous amount of experience. Joshua told us
+that he&#39;s been climbing Kili for over 20 years. After we reached the Uhuru Peak, Simon took everyone else back down,
+while Joshua and I continued on to Reusch Crater.
+It took less than 1 hour to get there from the peak, but was surpisingly difficult at that altitude!&lt;/p&gt;
+
+&lt;h3&gt;Marangu Home Stay&lt;/h3&gt;
+
+&lt;div class=&quot;gallery gallery-homestay&quot;&gt;&lt;/div&gt;
+
+
+&lt;p&gt;After we came down off the mountain, we were lucky enough to be able to stay with a family in the villiage of Marangu, located about 1 hour north-east of Moshi.
+Our hosts, Mama and Baba (Papa) Fina, were incredibly gracious! They taught us about local culture and how to cook traditional Tanzanian Chipati,
+and of course: how to speak Swahili. Almost everyone in Tanzania can speak at least three languages: 1) their tribal language (Chagga, in this case),
+2) Swahili, 3) English. Mama and Baba Fina ran a small hog farm, but also had cows, goats, rabbits, chickens and banana and coffee trees.
+I was amazed at how productive they were on their relatively small plot of land.&lt;/p&gt;
+
+&lt;p&gt;Overall, we had an amazing experience in Tanazania. The wildlife and natural beauty found in this area rival that found anywhere else in the world.
+We also found Tanzanian and Swahili culture to be some of the most charming that we&#39;d experienced in all our travels,
+and it&#39;s always good to see the world from someone else&#39;s perspective. Hopefully we&#39;ll be able to go back again some day!&lt;/p&gt;
+</description>
+				<pubDate>Fri, 04 Jul 2014 00:00:00 -0500</pubDate>
+				<link>http://www.andrewtongen.net/2014/07/04/tanzania.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2014/07/04/tanzania.html</guid>
+			</item>
+		
+			<item>
 				<title>SVG+JS Whale</title>
 				<description>&lt;p&gt;I saw this one too and just had to see if I could add it to my requirejs setup. This was originally found &lt;a href=&quot;http://codepen.io/diegoleme/pen/rIokB&quot;&gt;here&lt;/a&gt;.
 The mouse position is a bit off.&lt;/p&gt;
@@ -43,24 +112,21 @@ After you&#39;ve run &lt;code&gt;jekyll build&lt;/code&gt;, cd to _site and init
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;_site
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git init .
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit -a -m &lt;span class=&quot;s1&quot;&gt;&amp;#39;Intial commit&amp;#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Now move the resuling .git directory so that it is a sibling of the jekyll directory,
 and give it a more descriptive name:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mv .git ../../atongen.github.io
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Finally, set the git core.worktree configuration item so that it points back to the static html in _site:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../../atongen.github.io
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config core.worktree path/to/jekyll/_site
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;At this point, the contents of your static html directory will &lt;em&gt;look&lt;/em&gt; like a bare git repo, but it&#39;s not!
@@ -102,16 +168,14 @@ platform: debian-amd64
 options:  bn&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;64,64&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; rc4&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;16x,int&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; des&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;idx,cisc,16,int&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; blowfish&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;idx&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 compiler: cc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -m64 -DL_ENDIAN -DTERMIO -g -O2 -fstack-protector --param&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;ssp-buffer-size&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4 -Wformat -Werror&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;format-security -D_FORTIFY_SOURCE&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wa,--noexecstack -Wall -DOPENSSL_NO_TLS1_2_CLIENT -DOPENSSL_MAX_TLS1_2_CIPHER_LENGTH&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;50 -DMD32_REG_T&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;int -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
 OPENSSLDIR: &lt;span class=&quot;s2&quot;&gt;&amp;quot;/usr/lib/ssl&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;If it was built on April 7 or later, then you have a patched version. Now, generate the private key for your
 new CA. Be sure to include &quot;-des3&quot; so your key is password-protected.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl genrsa -des3 -out tongenRootCA.key 4096
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Be sure to keep this key secure. Now self-sign your own root CA key. This is apparently how all the big CA&#39;s do it.&lt;/p&gt;
@@ -132,8 +196,7 @@ Organization Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, company&lt;s
 Organizational Unit Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, section&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
 Common Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;e.g. server FQDN or YOUR name&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:Tongen Internet Authority
 Email Address &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Ok, now you&#39;re a CA! Congratulations! If you can somehow manage to get your cert to be shipped with any
@@ -142,8 +205,7 @@ unless you sign some SSL keys, so let&#39;s create one that we can sign. This pa
 if you&#39;ve ever purchased an SSL certificate before.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl genrsa -out andrewtongen.net.key 2048
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Now generate the corresponding CSR:&lt;/p&gt;
@@ -168,8 +230,7 @@ Please enter the following &lt;span class=&quot;s1&quot;&gt;&amp;#39;extra&amp;#
 to be sent with your certificate request
 A challenge password &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
 An optional company name &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Now for the fun part. We&#39;ll sign the SSL key we just generated with the CA certificate and key we generated earlier:&lt;/p&gt;
@@ -179,8 +240,7 @@ Signature ok
 &lt;span class=&quot;nv&quot;&gt;subject&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/C&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;US/ST&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Minnesota/L&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Minneapolis/O&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Tongen Technologies/CN&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;*.andrewtongen.net
 Getting CA Private Key
 Enter pass phrase &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;path/to/tongenRootCA.key:
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;And you&#39;re done! You can now install the SSL cert and key on your webserver for encrypted traffic.&lt;/p&gt;
@@ -275,16 +335,6 @@ along. Give it a try yourself!&lt;/p&gt;
 				<pubDate>Sat, 02 Mar 2013 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2013/03/02/ruby-switcher-i-can-live-with.html</link>
 				<guid isPermaLink="true">http://www.andrewtongen.net/2013/03/02/ruby-switcher-i-can-live-with.html</guid>
-			</item>
-		
-			<item>
-				<title>Added Disqus</title>
-				<description>&lt;p&gt;Today I added Disqus commenting to my blog! Go ahead, leave a comment, it&#39;ll be fun!
-Hopefully this will be useful to readers as I add more content to this site.&lt;/p&gt;
-</description>
-				<pubDate>Sat, 02 Mar 2013 00:00:00 -0600</pubDate>
-				<link>http://www.andrewtongen.net/2013/03/02/add-disqus.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2013/03/02/add-disqus.html</guid>
 			</item>
 		
 	</channel>
