@@ -7,6 +7,19 @@
 		<atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Trip to Banff, CA</title>
+				<description>&lt;p&gt;Hot on the heels of our trip to Africa was our trip to Banff!
+Here are some photos from this trip:&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
+
+</description>
+				<pubDate>Mon, 04 Aug 2014 00:00:00 -0500</pubDate>
+				<link>http://www.andrewtongen.net/2014/08/04/banff.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2014/08/04/banff.html</guid>
+			</item>
+		
+			<item>
 				<title>Tanzania Trip</title>
 				<description>&lt;p&gt;When my sister Lucy told us that she&#39;d be spending 2 months in Tanzania this summer,
 my wife and I thought, &quot;Hey, that&#39;s cool, she should totally try to climb Kilimanjaro!&quot;
@@ -312,29 +325,6 @@ I can&#39;t wait to do some more packrafting in the near future.&lt;/p&gt;
 				<pubDate>Wed, 03 Jul 2013 00:00:00 -0500</pubDate>
 				<link>http://www.andrewtongen.net/2013/07/03/packrafting-eureka-creek.html</link>
 				<guid isPermaLink="true">http://www.andrewtongen.net/2013/07/03/packrafting-eureka-creek.html</guid>
-			</item>
-		
-			<item>
-				<title>chruby: A Ruby Switcher I Can Live With</title>
-				<description>&lt;p&gt;I&#39;ve never really been happy with &lt;a href=&quot;https://rvm.io/&quot;&gt;rvm&lt;/a&gt;. It always felt like it was trying to do too much. And, I
-really didn&#39;t see the point of using gemsets when we have &lt;a href=&quot;http://gembundler.com/&quot;&gt;bundler&lt;/a&gt;. I used
-&lt;a href=&quot;https://github.com/sstephenson/rbenv/&quot;&gt;rbenv&lt;/a&gt; for a while, and it worked pretty well. But all I really wanted was a
-simple way to switch between ruby binaries. Basically, this boils down to updating &lt;code&gt;$PATH&lt;/code&gt;. Before I used
-rbenv, I had been doing this manually.&lt;/p&gt;
-
-&lt;p&gt;Enter &lt;a href=&quot;https://github.com/postmodern/chruby&quot;&gt;chruby&lt;/a&gt;. Chruby is a simple shell script does one thing, and does it well:
-switch between ruby versions. It does this by updating &lt;code&gt;$PATH&lt;/code&gt;. You can install your rubies anywhere you
-want and chruby provides a command to switch between them by updating &lt;code&gt;$PATH&lt;/code&gt;. By default it looks for
-rubies in &lt;code&gt;/opt/rubies&lt;/code&gt; or &lt;code&gt;~/.rubies&lt;/code&gt;. It will find your system ruby, if installed, and allow
-you to switch between that as well. It correctly sets &lt;code&gt;$GEM_HOME&lt;/code&gt; and &lt;code&gt;$GEM_PATH&lt;/code&gt;, which can be
-confusing if don&#39;t know what those environmental variable do.&lt;/p&gt;
-
-&lt;p&gt;I&#39;m using chruby on most of my systems now, and I&#39;ll probably stick with it until the next greatest ruby switcher comes
-along. Give it a try yourself!&lt;/p&gt;
-</description>
-				<pubDate>Sat, 02 Mar 2013 00:00:00 -0600</pubDate>
-				<link>http://www.andrewtongen.net/2013/03/02/ruby-switcher-i-can-live-with.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2013/03/02/ruby-switcher-i-can-live-with.html</guid>
 			</item>
 		
 	</channel>
