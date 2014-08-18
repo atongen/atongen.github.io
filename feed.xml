@@ -125,21 +125,24 @@ After you&#39;ve run &lt;code&gt;jekyll build&lt;/code&gt;, cd to _site and init
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;_site
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git init .
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit -a -m &lt;span class=&quot;s1&quot;&gt;&amp;#39;Intial commit&amp;#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 
 &lt;p&gt;Now move the resuling .git directory so that it is a sibling of the jekyll directory,
 and give it a more descriptive name:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mv .git ../../atongen.github.io
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 
 &lt;p&gt;Finally, set the git core.worktree configuration item so that it points back to the static html in _site:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../../atongen.github.io
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config core.worktree path/to/jekyll/_site
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 
 &lt;p&gt;At this point, the contents of your static html directory will &lt;em&gt;look&lt;/em&gt; like a bare git repo, but it&#39;s not!
@@ -181,14 +184,16 @@ platform: debian-amd64
 options:  bn&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;64,64&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; rc4&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;16x,int&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; des&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;idx,cisc,16,int&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; blowfish&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;idx&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 compiler: cc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -m64 -DL_ENDIAN -DTERMIO -g -O2 -fstack-protector --param&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;ssp-buffer-size&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4 -Wformat -Werror&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;format-security -D_FORTIFY_SOURCE&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wa,--noexecstack -Wall -DOPENSSL_NO_TLS1_2_CLIENT -DOPENSSL_MAX_TLS1_2_CIPHER_LENGTH&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;50 -DMD32_REG_T&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;int -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
 OPENSSLDIR: &lt;span class=&quot;s2&quot;&gt;&amp;quot;/usr/lib/ssl&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 
 &lt;p&gt;If it was built on April 7 or later, then you have a patched version. Now, generate the private key for your
 new CA. Be sure to include &quot;-des3&quot; so your key is password-protected.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl genrsa -des3 -out tongenRootCA.key 4096
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 
 &lt;p&gt;Be sure to keep this key secure. Now self-sign your own root CA key. This is apparently how all the big CA&#39;s do it.&lt;/p&gt;
@@ -209,7 +214,8 @@ Organization Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, company&lt;s
 Organizational Unit Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, section&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
 Common Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;e.g. server FQDN or YOUR name&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:Tongen Internet Authority
 Email Address &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 
 &lt;p&gt;Ok, now you&#39;re a CA! Congratulations! If you can somehow manage to get your cert to be shipped with any
@@ -218,7 +224,8 @@ unless you sign some SSL keys, so let&#39;s create one that we can sign. This pa
 if you&#39;ve ever purchased an SSL certificate before.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl genrsa -out andrewtongen.net.key 2048
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 
 &lt;p&gt;Now generate the corresponding CSR:&lt;/p&gt;
@@ -243,7 +250,8 @@ Please enter the following &lt;span class=&quot;s1&quot;&gt;&amp;#39;extra&amp;#
 to be sent with your certificate request
 A challenge password &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
 An optional company name &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 
 &lt;p&gt;Now for the fun part. We&#39;ll sign the SSL key we just generated with the CA certificate and key we generated earlier:&lt;/p&gt;
@@ -253,7 +261,8 @@ Signature ok
 &lt;span class=&quot;nv&quot;&gt;subject&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/C&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;US/ST&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Minnesota/L&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Minneapolis/O&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Tongen Technologies/CN&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;*.andrewtongen.net
 Getting CA Private Key
 Enter pass phrase &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;path/to/tongenRootCA.key:
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 
 &lt;p&gt;And you&#39;re done! You can now install the SSL cert and key on your webserver for encrypted traffic.&lt;/p&gt;

@@ -69,21 +69,24 @@ After you've run <code>jekyll build</code>, cd to _site and initialize a git rep
 <div class="highlight"><pre><code class="bash"><span class="nv">$ </span><span class="nb">cd </span>_site
 <span class="nv">$ </span>git init .
 <span class="nv">$ </span>git commit -a -m <span class="s1">&#39;Intial commit&#39;</span>
-</code></pre></div>
+</code></pre>
+</div>
 
 
 <p>Now move the resuling .git directory so that it is a sibling of the jekyll directory,
 and give it a more descriptive name:</p>
 
 <div class="highlight"><pre><code class="bash"><span class="nv">$ </span>mv .git ../../atongen.github.io
-</code></pre></div>
+</code></pre>
+</div>
 
 
 <p>Finally, set the git core.worktree configuration item so that it points back to the static html in _site:</p>
 
 <div class="highlight"><pre><code class="bash"><span class="nv">$ </span><span class="nb">cd</span> ../../atongen.github.io
 <span class="nv">$ </span>git config core.worktree path/to/jekyll/_site
-</code></pre></div>
+</code></pre>
+</div>
 
 
 <p>At this point, the contents of your static html directory will <em>look</em> like a bare git repo, but it's not!

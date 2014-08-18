@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/atongen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.andrewtongen.net
+  * I am atongen (https://keybase.io/atongen) on keybase.
+  * I have a public key with fingerprint 0F04 19E3 3836 AAC5 1389  2BC9 0CBE F8F3 D29A 7369
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0f0419e33836aac513892bc90cbef8f3d29a7369",
+            "host": "keybase.io",
+            "key_id": "0cbef8f3d29a7369",
+            "uid": "558f63da8bc4932ac2e5733604fdbe00",
+            "username": "atongen"
+        },
+        "service": {
+            "hostname": "www.andrewtongen.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1408319938,
+    "expire_in": 157680000,
+    "prev": "8ef6e0c0cb533f2dfa268195cf14601f52be9eff9d26803a9a43dfd13aceb6ee",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.3.1
+Comment: https://keybase.io/crypto
+
+yMHkAnicZZFdSBRRFIB3+3clUpLarSgchH5Y15m9O38rBK1GQWWImWbGdmfm3t3J
+nNlmx/1JFwSxIn2IwHxw7SWJhPbBEDJRWiwIUix80B5iexBDJCQLw4eo7pg9dV8u
+99zvfOcczuudm20Oe678W3Au53DZJ7NrLbaalRMTrZSkK0nK30o1ofULq1oIGRFD
+1UzKT9GY9jEiAkAAHIQyywBB9EqySMsSwgIGileEPOBEyk2F9aiVQTQSjCKPqpMY
+eQRVxfL8z7esf7CsgDmgQEGSfSLwQtmLWB4AjvZhRUI0bYFRZGiwGREamjrpTqNS
+booEY6qMrJatyhtAPB73QE0xUPwv6dGQSRQRQzd1Wb9OiLBpRvyWwExG1jOQFNxw
+BSVVU8j4JCGGjKiqa5SfIaRsqpac8dECYEQRCG4KJSKqgYKqRbA8J9DkWGVQjCgF
+hDlEy2RmFgDsVTD0cgIjsjJmfBzNYNYrIRFhLCokTgMoQh9QsMIAKCOJQ4iypruh
+6ZSfJ23CEFFG1ZAGzRYDUamJbOMWm91h27Z1k7VAmyOv4N9aS7u2/755Tsi1NZ0Z
+X3EoLzsaQ7OPyi52Dz9vNGNFnlF9953Syqyv+0XX99SpYO1R+UvNcZzpXzpUXnVl
+iuN5Jj3jDVekXQNTDwdrxy7lEjNHfjnfny15XLera3r/NdfevnBWrSpczVc6e1c6
+evufBXr6cNhZDYftT1vHJusHPIA5WBQ99mnkFp822gfooZne5IXM50oHty8w9LO9
+OPG2oJOZHl1r+PpmsPa0P3q/uSR9uP7J7TxPW1Pq5JLfVtYTcC43qHw+V/jxcsZd
+fDV5N/Oud895bnF+HnHshwPVs3WBhQexHbBgfLlidbTdNfdjfsSZWFxw38uU5l6l
+p/4A0MsTAg==
+=ZMln
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/atongen
+
+==================================================================
+
