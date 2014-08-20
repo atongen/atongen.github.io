@@ -7,6 +7,34 @@
 		<atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Keybase.io</title>
+				<description>&lt;p&gt;Hey, I&#39;m &lt;a href=&quot;https://keybase.io/atongen&quot;&gt;atongen&lt;/a&gt; on &lt;a href=&quot;https://keybase.io&quot;&gt;keybase.io&lt;/a&gt;!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;% keybase id atongen
+✔ public key fingerprint: 0F04 19E3 3836 AAC5 1389 2BC9 0CBE F8F3 D29A 7369
+✔ &quot;atongen&quot; on twitter: https://twitter.com/atongen/status/501144772044914689
+✔ &quot;atongen&quot; on github: https://gist.github.com/5ab06ddf7c15e9782132
+✔ &quot;tongman&quot; on reddit: https://www.reddit.com/r/KeybaseProofs/comments/2du95g/my_keybase_proof_reddittongman_keybaseatongen/
+✔ admin of www.andrewtongen.net via HTTP: http://www.andrewtongen.net/keybase.txt&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Can the guys at keybase do for public key infrastructure what github did for git hosting?
+I&#39;m not sure, but if you&#39;d like to play along, you can send me an encrypted message here:
+&lt;a href=&quot;https://keybase.io/encrypt#atongen&quot;&gt;https://keybase.io/encrypt#atongen&lt;/a&gt; or use the
+real-time js implementation below.&lt;/p&gt;
+
+&lt;p&gt;Type your message here:
+&lt;textarea class=&quot;js-plaintext&quot;&gt;&lt;/textarea&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js-encrypted&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+				<pubDate>Sun, 17 Aug 2014 00:00:00 -0500</pubDate>
+				<link>http://www.andrewtongen.net/2014/08/17/keybase.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2014/08/17/keybase.html</guid>
+			</item>
+		
+			<item>
 				<title>Trip to Banff, CA</title>
 				<description>&lt;p&gt;Hot on the heels of our trip to Africa was our trip to Banff!
 Here are some photos from this trip:&lt;/p&gt;
@@ -316,24 +344,6 @@ when we got home! Hopefully some day we&#39;ll get to go back.&lt;/p&gt;
 				<pubDate>Sun, 29 Dec 2013 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2013/12/29/st-john-new-year.html</link>
 				<guid isPermaLink="true">http://www.andrewtongen.net/2013/12/29/st-john-new-year.html</guid>
-			</item>
-		
-			<item>
-				<title>Packrafting Eureka Creek</title>
-				<description>&lt;p&gt;Over the 4th of July, my wife, my father-in-law and I decided to take a packrafting trip in Alaska.
-We did some research and found a cool trip that is described very well here:
-&lt;a href=&quot;http://edplumb.blogspot.com/2008/09/mcclaren-summit-to-eureka-creek.html&quot;&gt;McClaren Summit to Eureka Creek Traverse&lt;/a&gt;
-by Ed Plumb of Fairbanks, AK. It rained a little bit, but other than that, the trip was great.
-I can&#39;t wait to do some more packrafting in the near future.&lt;/p&gt;
-
-&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Oh, and we had to stop in &lt;a href=&quot;https://www.alaskamountaineering.com/&quot;&gt;Alaska Mountaineering &amp;amp; Hiking&lt;/a&gt; while we were in Anchorage!&lt;/p&gt;
-</description>
-				<pubDate>Wed, 03 Jul 2013 00:00:00 -0500</pubDate>
-				<link>http://www.andrewtongen.net/2013/07/03/packrafting-eureka-creek.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2013/07/03/packrafting-eureka-creek.html</guid>
 			</item>
 		
 	</channel>
