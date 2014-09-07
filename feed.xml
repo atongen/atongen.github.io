@@ -1,10 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Eventually Consistent</title>
+		<title>Andrew Tongen's Weblog</title>
 		<description>Andrew Tongen's Weblog</description>
 		<link>http://www.andrewtongen.net</link>
 		<atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Tech Blog</title>
+				<description>&lt;p&gt;I&#39;m moving some of my posts to a new blog, which will be more focused on software development.
+You can find the blog here: &lt;a href=&quot;http://www.eventually-consistent.com&quot;&gt;eventually-consistent.com&lt;/a&gt;.
+These are the posts that have been migrated over:&lt;/p&gt;
+
+&lt;ul&gt;
+
+
+
+
+&lt;li&gt;&lt;a href=&quot;http://www.eventually-consistent.com/2014/08/17/keybase.html&quot;&gt;Keybase.io&lt;/a&gt;&lt;/li&gt;
+
+
+
+
+
+
+
+
+
+&lt;li&gt;&lt;a href=&quot;http://www.eventually-consistent.com/2014/04/13/seen.html&quot;&gt;seen.js&lt;/a&gt;&lt;/li&gt;
+
+
+
+&lt;li&gt;&lt;a href=&quot;http://www.eventually-consistent.com/2014/04/13/jekyll-plugins-on-github.html&quot;&gt;Jekyll Plugins Hosted on github.io&lt;/a&gt;&lt;/li&gt;
+
+
+
+&lt;li&gt;&lt;a href=&quot;http://www.eventually-consistent.com/2014/04/13/be-your-own-ca.html&quot;&gt;Be Your Own CA&lt;/a&gt;&lt;/li&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;li&gt;&lt;a href=&quot;http://www.eventually-consistent.com/2013/03/02/ruby-switcher-i-can-live-with.html&quot;&gt;chruby: A Ruby Switcher I Can Live With&lt;/a&gt;&lt;/li&gt;
+
+
+
+
+
+
+
+&lt;li&gt;&lt;a href=&quot;http://www.eventually-consistent.com/2013/02/10/set-game.html&quot;&gt;Set Game&lt;/a&gt;&lt;/li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Sun, 31 Aug 2014 00:00:00 -0500</pubDate>
+				<link>http://www.andrewtongen.net/2014/08/31/tech-blog.html</link>
+				<guid isPermaLink="true">http://www.andrewtongen.net/2014/08/31/tech-blog.html</guid>
+			</item>
 		
 			<item>
 				<title>Keybase.io</title>
@@ -28,6 +98,9 @@ real-time js implementation below.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;js-encrypted&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
 
+
+&lt;p&gt;Otherwise, if you prefer a more traditional public key infrastructure,
+you can find my public key on MIT&#39;s public key server &lt;a href=&quot;https://pgp.mit.edu/pks/lookup?search=andrew+tongen&quot;&gt;28B36DE1&lt;/a&gt;.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 17 Aug 2014 00:00:00 -0500</pubDate>
 				<link>http://www.andrewtongen.net/2014/08/17/keybase.html</link>
@@ -39,7 +112,7 @@ real-time js implementation below.&lt;/p&gt;
 				<description>&lt;p&gt;Hot on the heels of our trip to Africa was our trip to Banff!
 Here are some photos from this trip:&lt;/p&gt;
 
-&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;gallery&quot; data-set-id=&quot;72157646032946508&quot;&gt;&lt;/div&gt;
 
 </description>
 				<pubDate>Mon, 04 Aug 2014 00:00:00 -0500</pubDate>
@@ -59,7 +132,7 @@ we better take in all the culture, wildlife and natural beauty that Tanzania off
 
 &lt;h3&gt;Safari&lt;/h3&gt;
 
-&lt;div class=&quot;gallery gallery-safari&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;gallery gallery-safari&quot; data-set-id=&quot;72157646010500085&quot;&gt;&lt;/div&gt;
 
 
 &lt;p&gt;We started our trip to Tanzania with a night stay at &lt;a href=&quot;http://www.springlandshotel.com/&quot;&gt;The Springlands Hotel&lt;/a&gt; in Moshi.
@@ -78,7 +151,7 @@ Having Omega with us was great: he really helped us absorb Tanzanian culture and
 
 &lt;h3&gt;Kilimanjaro Climb&lt;/h3&gt;
 
-&lt;div class=&quot;gallery gallery-kili&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;gallery gallery-kili&quot; data-set-id=&quot;72157646010134445&quot;&gt;&lt;/div&gt;
 
 
 &lt;p&gt;In the morning, we met up with our guides at &lt;a href=&quot;http://www.kilimanjarotravels-tz.com/&quot;&gt;Kilimanjaro Travel Services&lt;/a&gt;.
@@ -98,7 +171,7 @@ It took less than 1 hour to get there from the peak, but was surpisingly difficu
 
 &lt;h3&gt;Marangu Home Stay&lt;/h3&gt;
 
-&lt;div class=&quot;gallery gallery-homestay&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;gallery gallery-homestay&quot; data-set-id=&quot;72157646006983034&quot;&gt;&lt;/div&gt;
 
 
 &lt;p&gt;After we came down off the mountain, we were lucky enough to be able to stay with a family in the villiage of Marangu, located about 1 hour north-east of Moshi.
@@ -309,7 +382,7 @@ so it was a bit like winter camping. There was no running water, but there was a
 nice and toasty. There was even antique snowmobile races at Melgeorge&#39;s, the resort right down the road.
 We had a great time!&lt;/p&gt;
 
-&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;gallery&quot; data-set-id=&quot;72157642408341614&quot;&gt;&lt;/div&gt;
 
 </description>
 				<pubDate>Sun, 09 Mar 2014 00:00:00 -0600</pubDate>
@@ -323,27 +396,12 @@ We had a great time!&lt;/p&gt;
 making the course difficult with race times slower than expected. I still had a blast, though and I
 plan on doing it again next year. Maybe I&#39;ll be able to convince Grethe to ski with me.&lt;/p&gt;
 
-&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;gallery&quot; data-set-id=&quot;72157642432817473&quot;&gt;&lt;/div&gt;
 
 </description>
 				<pubDate>Sat, 22 Feb 2014 00:00:00 -0600</pubDate>
 				<link>http://www.andrewtongen.net/2014/02/22/american-birkebeiner.html</link>
 				<guid isPermaLink="true">http://www.andrewtongen.net/2014/02/22/american-birkebeiner.html</guid>
-			</item>
-		
-			<item>
-				<title>St. John New Year</title>
-				<description>&lt;p&gt;We were lucky enough to take a nice trip to the US Virgin Islands over New Year&#39;s.
-We stayed on the island of St. John. The weather was great and we had a great
-time snorkeling and relaxing on the beach. It was a 100+ degree temperature swing
-when we got home! Hopefully some day we&#39;ll get to go back.&lt;/p&gt;
-
-&lt;div class=&quot;gallery&quot;&gt;&lt;/div&gt;
-
-</description>
-				<pubDate>Sun, 29 Dec 2013 00:00:00 -0600</pubDate>
-				<link>http://www.andrewtongen.net/2013/12/29/st-john-new-year.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2013/12/29/st-john-new-year.html</guid>
 			</item>
 		
 	</channel>
