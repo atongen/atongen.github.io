@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Andrew Tongen's Weblog</title>
-		<description>Andrew Tongen's Weblog</description>
-		<link>http://www.andrewtongen.net</link>
-		<atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>Keybase.io</title>
-				<description>&lt;p&gt;Hey, I&#39;m &lt;a href=&quot;https://keybase.io/atongen&quot;&gt;atongen&lt;/a&gt; on &lt;a href=&quot;https://keybase.io&quot;&gt;keybase.io&lt;/a&gt;!&lt;/p&gt;
+  <channel>
+    <title>Tongen be Bloggin&#39;</title>
+    <description>Andrew Tongen&#39;s weblog, scratchpad, idea dumping ground, journal, etc.</description>
+    <link>http://www.andrewtongen.net/</link>
+    <atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 08 Mar 2015 14:49:05 -0500</pubDate>
+    <lastBuildDate>Sun, 08 Mar 2015 14:49:05 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Keybase.io</title>
+        <description>&lt;p&gt;Hey, I’m &lt;a href=&quot;https://keybase.io/atongen&quot;&gt;atongen&lt;/a&gt; on &lt;a href=&quot;https://keybase.io&quot;&gt;keybase.io&lt;/a&gt;!&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;% keybase id atongen
 ✔ public key fingerprint: 0F04 19E3 3836 AAC5 1389 2BC9 0CBE F8F3 D29A 7369
@@ -17,53 +20,73 @@
 ✔ &quot;tongman&quot; on reddit: https://www.reddit.com/r/KeybaseProofs/comments/2du95g/my_keybase_proof_reddittongman_keybaseatongen/
 ✔ admin of www.andrewtongen.net via HTTP: http://www.andrewtongen.net/keybase.txt&lt;/code&gt;&lt;/pre&gt;
 
-
 &lt;p&gt;Can the guys at keybase do for public key infrastructure what github did for git hosting?
-I&#39;m not sure, but if you&#39;d like to play along, you can send me an encrypted message here:
-&lt;a href=&quot;https://keybase.io/encrypt#atongen&quot;&gt;https://keybase.io/encrypt#atongen&lt;/a&gt; or use the
-real-time js implementation below.&lt;/p&gt;
+I’m not sure, but if you’d like to play along, you can send me an encrypted message here:
+&lt;a href=&quot;https://keybase.io/encrypt#atongen&quot;&gt;https://keybase.io/encrypt#atongen&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Type your message here:
+&lt;p&gt;My keys can be found here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pgp.mit.edu/pks/lookup?search=andrew+tongen&quot;&gt;28B36DE1&lt;/a&gt; atongen at gmail dot com&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keybase.io/atongen&quot;&gt;D29A7369&lt;/a&gt; atongen at keybase dot io&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’d like to encrypt a message for me right here in the browser, you can do so below.&lt;/p&gt;
+
+&lt;p&gt;First, select the key you’d like to use to perform the encryption:
+&lt;select class=&quot;js-key&quot;&gt;
+  &lt;option value=&quot;gpg&quot;&gt;atongen at gmail dot com&lt;/option&gt;
+  &lt;option value=&quot;keybase&quot;&gt;atongen keybase dot io&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, type your message here:
 &lt;textarea class=&quot;js-plaintext&quot;&gt;&lt;/textarea&gt;&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&quot;js-encrypted&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;And send me the result.&lt;/p&gt;
 
-&lt;p&gt;Otherwise, if you prefer a more traditional public key infrastructure,
-you can find my public key on MIT&#39;s public key server &lt;a href=&quot;https://pgp.mit.edu/pks/lookup?search=andrew+tongen&quot;&gt;28B36DE1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This implementation uses &lt;a href=&quot;https://keybase.io/docs/personal_keybase&quot;&gt;personal_keybase&lt;/a&gt;.&lt;/p&gt;
 </description>
-				<pubDate>Sun, 17 Aug 2014 00:00:00 -0500</pubDate>
-				<link>http://www.andrewtongen.net/2014/08/17/keybase.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2014/08/17/keybase.html</guid>
-			</item>
-		
-			<item>
-				<title>Trip to Banff, CA</title>
-				<description>&lt;p&gt;Hot on the heels of our trip to Africa was our trip to Banff!
+        <pubDate>Sun, 17 Aug 2014 00:00:00 -0500</pubDate>
+        <link>http://www.andrewtongen.net/2014/08/17/keybase.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2014/08/17/keybase.html</guid>
+        
+        <category>javascript</category>
+        
+        <category>security</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Trip to Banff, CA</title>
+        <description>&lt;p&gt;Hot on the heels of our trip to Africa was our trip to Banff!
 Here are some photos from this trip:&lt;/p&gt;
 
 &lt;div class=&quot;gallery&quot; data-set-id=&quot;72157646032946508&quot;&gt;&lt;/div&gt;
-
 </description>
-				<pubDate>Mon, 04 Aug 2014 00:00:00 -0500</pubDate>
-				<link>http://www.andrewtongen.net/2014/08/04/banff.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2014/08/04/banff.html</guid>
-			</item>
-		
-			<item>
-				<title>Tanzania Trip</title>
-				<description>&lt;p&gt;When my sister Lucy told us that she&#39;d be spending 2 months in Tanzania this summer,
-my wife and I thought, &quot;Hey, that&#39;s cool, she should totally try to climb Kilimanjaro!&quot;
+        <pubDate>Mon, 04 Aug 2014 00:00:00 -0500</pubDate>
+        <link>http://www.andrewtongen.net/2014/08/04/banff.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2014/08/04/banff.html</guid>
+        
+        <category>travel</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Tanzania Trip</title>
+        <description>&lt;p&gt;When my sister Lucy told us that she’d be spending 2 months in Tanzania this summer,
+my wife and I thought, “Hey, that’s cool, she should totally try to climb Kilimanjaro!”
 The more we thought about it, we realized that we should join her and climb it as well.
 We also realized that if we travelled all the way across the world to climb a mountain,
 we better take in all the culture, wildlife and natural beauty that Tanzania offered as well.&lt;/p&gt;
 
 &lt;p&gt;And so we did!&lt;/p&gt;
 
-&lt;h3&gt;Safari&lt;/h3&gt;
+&lt;h3 id=&quot;safari&quot;&gt;Safari&lt;/h3&gt;
 
 &lt;div class=&quot;gallery gallery-safari&quot; data-set-id=&quot;72157646010500085&quot;&gt;&lt;/div&gt;
-
 
 &lt;p&gt;We started our trip to Tanzania with a night stay at &lt;a href=&quot;http://www.springlandshotel.com/&quot;&gt;The Springlands Hotel&lt;/a&gt; in Moshi.
 Springlands is operated by &lt;a href=&quot;https://www.zaratours.com/&quot;&gt;Zara Tours&lt;/a&gt;, as were all the hotels we stayed at on our safari.
@@ -76,33 +99,31 @@ saw the wilderness at the &lt;a href=&quot;http://www.ngorongorocrater.org/&quot
 It was amazing to see that many large mamals living symbiotically in a relatively small area.&lt;/p&gt;
 
 &lt;p&gt;After the safari, we met up with my sister Lucy, her friend Kasey, and their friend Omega back at the Springlands Hotel.
-Lucy and Kasey had met Omega while volunteering for &lt;a href=&quot;http://www.darewomensfoundation.org/&quot;&gt;The Dare Women&#39;s Foundation&lt;/a&gt;.
+Lucy and Kasey had met Omega while volunteering for &lt;a href=&quot;http://www.darewomensfoundation.org/&quot;&gt;The Dare Women’s Foundation&lt;/a&gt;.
 Having Omega with us was great: he really helped us absorb Tanzanian culture and the Swahili language.&lt;/p&gt;
 
-&lt;h3&gt;Kilimanjaro Climb&lt;/h3&gt;
+&lt;h3 id=&quot;kilimanjaro-climb&quot;&gt;Kilimanjaro Climb&lt;/h3&gt;
 
 &lt;div class=&quot;gallery gallery-kili&quot; data-set-id=&quot;72157646010134445&quot;&gt;&lt;/div&gt;
-
 
 &lt;p&gt;In the morning, we met up with our guides at &lt;a href=&quot;http://www.kilimanjarotravels-tz.com/&quot;&gt;Kilimanjaro Travel Services&lt;/a&gt;.
 They helped us organize our gear; then we piled into a van headed to the &lt;a href=&quot;http://machame.com/machame-itinerary6.htm&quot;&gt;Machame Gate&lt;/a&gt;
 for a 6-day trek up Kilimanjaro.&lt;/p&gt;
 
 &lt;p&gt;The trek was amazing and everyone in our party of four made it to the top! Even though the Machame route is thought of as
-more difficult than other routes (it&#39;s sometimes called the &quot;whiskey route&quot;, as opposed to Marangu, which is called &quot;Coca-Cola&quot;),
-I&#39;m glad we chose it because it offers excellent acclimatization,
+more difficult than other routes (it’s sometimes called the “whiskey route”, as opposed to Marangu, which is called “Coca-Cola”),
+I’m glad we chose it because it offers excellent acclimatization,
 and you get to see several different ecosystems as you gain altitude,
 from rain forest up to the top of the mountain.&lt;/p&gt;
 
-&lt;p&gt;We couldn&#39;t have been happier with our guides, Joshua and Simon. They had a tremendous amount of experience. Joshua told us
-that he&#39;s been climbing Kili for over 20 years. After we reached the Uhuru Peak, Simon took everyone else back down,
+&lt;p&gt;We couldn’t have been happier with our guides, Joshua and Simon. They had a tremendous amount of experience. Joshua told us
+that he’s been climbing Kili for over 20 years. After we reached the Uhuru Peak, Simon took everyone else back down,
 while Joshua and I continued on to Reusch Crater.
 It took less than 1 hour to get there from the peak, but was surpisingly difficult at that altitude!&lt;/p&gt;
 
-&lt;h3&gt;Marangu Home Stay&lt;/h3&gt;
+&lt;h3 id=&quot;marangu-home-stay&quot;&gt;Marangu Home Stay&lt;/h3&gt;
 
 &lt;div class=&quot;gallery gallery-homestay&quot; data-set-id=&quot;72157646006983034&quot;&gt;&lt;/div&gt;
-
 
 &lt;p&gt;After we came down off the mountain, we were lucky enough to be able to stay with a family in the villiage of Marangu, located about 1 hour north-east of Moshi.
 Our hosts, Mama and Baba (Papa) Fina, were incredibly gracious! They taught us about local culture and how to cook traditional Tanzanian Chipati,
@@ -111,126 +132,127 @@ and of course: how to speak Swahili. Almost everyone in Tanzania can speak at le
 I was amazed at how productive they were on their relatively small plot of land.&lt;/p&gt;
 
 &lt;p&gt;Overall, we had an amazing experience in Tanazania. The wildlife and natural beauty found in this area rival that found anywhere else in the world.
-We also found Tanzanian and Swahili culture to be some of the most charming that we&#39;d experienced in all our travels,
-and it&#39;s always good to see the world from someone else&#39;s perspective. Hopefully we&#39;ll be able to go back again some day!&lt;/p&gt;
+We also found Tanzanian and Swahili culture to be some of the most charming that we’d experienced in all our travels,
+and it’s always good to see the world from someone else’s perspective. Hopefully we’ll be able to go back again some day!&lt;/p&gt;
 </description>
-				<pubDate>Fri, 04 Jul 2014 00:00:00 -0500</pubDate>
-				<link>http://www.andrewtongen.net/2014/07/04/tanzania.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2014/07/04/tanzania.html</guid>
-			</item>
-		
-			<item>
-				<title>SVG+JS Whale</title>
-				<description>&lt;p&gt;I saw this one too and just had to see if I could add it to my requirejs setup. This was originally found &lt;a href=&quot;http://codepen.io/diegoleme/pen/rIokB&quot;&gt;here&lt;/a&gt;.
-The mouse position is a bit off.&lt;/p&gt;
+        <pubDate>Fri, 04 Jul 2014 00:00:00 -0500</pubDate>
+        <link>http://www.andrewtongen.net/2014/07/04/tanzania.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2014/07/04/tanzania.html</guid>
+        
+        <category>travel</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>SVG+JS Whale</title>
+        <description>&lt;p&gt;I saw this one too and just had to see if I could add it to my requirejs setup. This was originally found &lt;a href=&quot;http://codepen.io/diegoleme/pen/rIokB&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div id=&quot;whale&quot;&gt;&lt;/div&gt;
+&lt;strike&gt;The mouse position is a bit off.&lt;/strike&gt;
 
+&lt;div id=&quot;whale&quot; style=&quot;width: 100%; height: 640px;&quot;&gt;&lt;/div&gt;
 </description>
-				<pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
-				<link>http://www.andrewtongen.net/2014/04/13/whale.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/whale.html</guid>
-			</item>
-		
-			<item>
-				<title>seen.js</title>
-				<description>&lt;p&gt;So &lt;a href=&quot;http://seenjs.io/&quot;&gt;seen.js&lt;/a&gt; seems pretty cool. I guess I mainly used it as an excuse to get coffeescript working for this blog!&lt;/p&gt;
+        <pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
+        <link>http://www.andrewtongen.net/2014/04/13/whale.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/whale.html</guid>
+        
+        <category>javascript</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>seen.js</title>
+        <description>&lt;p&gt;So &lt;a href=&quot;http://seenjs.io/&quot;&gt;seen.js&lt;/a&gt; seems pretty cool. I guess I mainly used it as an excuse to get coffeescript working for this blog!&lt;/p&gt;
 
-&lt;p&gt;&lt;canvas width=&quot;700&quot; height=&quot;500&quot; id=&quot;seen-canvas&quot;&gt;&lt;/canvas&gt;&lt;/p&gt;
+&lt;canvas width=&quot;565&quot; height=&quot;565&quot; id=&quot;seen-canvas&quot;&gt;&lt;/canvas&gt;
 </description>
-				<pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
-				<link>http://www.andrewtongen.net/2014/04/13/seen.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/seen.html</guid>
-			</item>
-		
-			<item>
-				<title>Jekyll Plugins Hosted on github.io</title>
-				<description>&lt;p&gt;Github is great for hosting your static site using jekyll. It&#39;s free and is not ad-supported. One of the only
-drawbacks is that jekyll plugins won&#39;t be run when you push code to your repo. There several workarounds for
+        <pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
+        <link>http://www.andrewtongen.net/2014/04/13/seen.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/seen.html</guid>
+        
+        <category>javascript</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Jekyll Plugins Hosted on github.io</title>
+        <description>&lt;p&gt;Github is great for hosting your static site using jekyll. It’s free and is not ad-supported. One of the only
+drawbacks is that jekyll plugins won’t be run when you push code to your repo. There several workarounds for
 this limitation, one of which is described here: &lt;a href=&quot;http://www.sitepoint.com/jekyll-plugins-github/&quot;&gt;http://www.sitepoint.com/jekyll-plugins-github/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Another approach involves two git repos: one for the jekyll code, and another one for the generated static
-html/js/css/image assets. Assuming you already have a jekyll site setup, this is how you&#39;d get started.
-After you&#39;ve run &lt;code&gt;jekyll build&lt;/code&gt;, cd to _site and initialize a git repo, add all the files and commit:&lt;/p&gt;
+html/js/css/image assets. Assuming you already have a jekyll site setup, this is how you’d get started.
+After you’ve run &lt;code&gt;jekyll build&lt;/code&gt;, cd to _site and initialize a git repo, add all the files and commit:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;_site
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;_site
 &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git init .
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit -a -m &lt;span class=&quot;s1&quot;&gt;&amp;#39;Intial commit&amp;#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit -a -m &lt;span class=&quot;s1&quot;&gt;&amp;#39;Intial commit&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Now move the resuling .git directory so that it is a sibling of the jekyll directory,
 and give it a more descriptive name:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mv .git ../../atongen.github.io
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mv .git ../../atongen.github.io&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Finally, set the git core.worktree configuration item so that it points back to the static html in _site:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../../atongen.github.io
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config core.worktree path/to/jekyll/_site
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../../atongen.github.io
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config core.worktree path/to/jekyll/_site&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
-&lt;p&gt;At this point, the contents of your static html directory will &lt;em&gt;look&lt;/em&gt; like a bare git repo, but it&#39;s not!
+&lt;p&gt;At this point, the contents of your static html directory will &lt;em&gt;look&lt;/em&gt; like a bare git repo, but it’s not!
 It just has a detached work tree. You can now push this repo to your hosted github user or project repo.
 The benefit here is that you can use plugins with jekyll and delete and re-build the entire _site directory
 without worrying about .git directory.&lt;/p&gt;
 </description>
-				<pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
-				<link>http://www.andrewtongen.net/2014/04/13/jekyll-plugins-on-github.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/jekyll-plugins-on-github.html</guid>
-			</item>
-		
-			<item>
-				<title>Be Your Own CA</title>
-				<description>&lt;p&gt;After spending so much time this week dealing with repercussions relating to the OpenSSL &quot;Heartbleed&quot; bug,
+        <pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
+        <link>http://www.andrewtongen.net/2014/04/13/jekyll-plugins-on-github.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/jekyll-plugins-on-github.html</guid>
+        
+        <category>ruby</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Be Your Own CA</title>
+        <description>&lt;p&gt;After spending so much time this week dealing with repercussions relating to the OpenSSL “Heartbleed” bug,
 I thought it was time to go back and properly set myself up as a CA, like I had been meaning to. Why would
 anybody want to do this? Well, there are a couple of good reasons.&lt;/p&gt;
 
 &lt;p&gt;Just like a self-signed certificate, a user will still get a security warning if he visits a site that uses
-a certificate that is signed by a CA that the browser doesn&#39;t recognize, but it&#39;s trivially easy to import
+a certificate that is signed by a CA that the browser doesn’t recognize, but it’s trivially easy to import
 the generated CA into the browser as a trusted CA. Once the certificate is imported, the browser will trust
-the SSL&#39;ed site just like it does that expensive Verisign cert. This is mainly convenient for personal
+the SSL’ed site just like it does that expensive Verisign cert. This is mainly convenient for personal
 use, for example when securely accessing data and/or services remotely from a home network.&lt;/p&gt;
 
 &lt;p&gt;Another use case is securing traffic on an internal network where many services are exposed, possibly in an app
 that uses a service oriented architecture. Since these are not public-facing, you simply generate a key and
 cert for each service, and then import the CA certificate into each client application. Now your network traffic
-is encrypted and you&#39;re in control of the chain of trust. You can even use the optional &quot;Organizational Unit (OU)&quot;
+is encrypted and you’re in control of the chain of trust. You can even use the optional “Organizational Unit (OU)”
 field on the certificate to pass meta-data between applications in your SOA. Docker allows you to authenticate clients
 in a similar fashion, which is described &lt;a href=&quot;http://docs.docker.io/en/latest/examples/https/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Here&#39;s how you&#39;d actually go about doing this. First, be sure you have a version of openssl that has been patched
+&lt;p&gt;Here’s how you’d actually go about doing this. First, be sure you have a version of openssl that has been patched
 for Heartbleed:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl version -a
-OpenSSL 1.0.1e 11 Feb 2013
-built on: Mon Apr  7 20:33:19 UTC 2014
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl version -a
+OpenSSL 1.0.1e &lt;span class=&quot;m&quot;&gt;11&lt;/span&gt; Feb 2013
+built on: Mon Apr  &lt;span class=&quot;m&quot;&gt;7&lt;/span&gt; 20:33:19 UTC 2014
 platform: debian-amd64
 options:  bn&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;64,64&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; rc4&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;16x,int&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; des&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;idx,cisc,16,int&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; blowfish&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;idx&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-compiler: cc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -m64 -DL_ENDIAN -DTERMIO -g -O2 -fstack-protector --param&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;ssp-buffer-size&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4 -Wformat -Werror&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;format-security -D_FORTIFY_SOURCE&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wa,--noexecstack -Wall -DOPENSSL_NO_TLS1_2_CLIENT -DOPENSSL_MAX_TLS1_2_CIPHER_LENGTH&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;50 -DMD32_REG_T&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;int -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
-OPENSSLDIR: &lt;span class=&quot;s2&quot;&gt;&amp;quot;/usr/lib/ssl&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
+compiler: cc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -m64 -DL_ENDIAN -DTERMIO -g -O2 -fstack-protector --param&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;ssp-buffer-size&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt; -Wformat -Werror&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;format-security -D_FORTIFY_SOURCE&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt; -Wl,-Bsymbolic-functions -Wl,-z,relro -Wa,--noexecstack -Wall -DOPENSSL_NO_TLS1_2_CLIENT -DOPENSSL_MAX_TLS1_2_CIPHER_LENGTH&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;50&lt;/span&gt; -DMD32_REG_T&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;int -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
+OPENSSLDIR: &lt;span class=&quot;s2&quot;&gt;&amp;quot;/usr/lib/ssl&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If it was built on April 7 or later, then you have a patched version. Now, generate the private key for your
-new CA. Be sure to include &quot;-des3&quot; so your key is password-protected.&lt;/p&gt;
+new CA. Be sure to include “-des3” so your key is password-protected.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl genrsa -des3 -out tongenRootCA.key 4096
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl genrsa -des3 -out tongenRootCA.key 4096&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;p&gt;Be sure to keep this key secure. Now self-sign your own root CA key. This is apparently how all the big CA’s do it.&lt;/p&gt;
 
-&lt;p&gt;Be sure to keep this key secure. Now self-sign your own root CA key. This is apparently how all the big CA&#39;s do it.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl req -x509 -new -nodes -key tongenRootCA.key -days 1024 -out tongenRootCA.pem
-Enter pass phrase &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;tongenRootCA.key:
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl req -x509 -new -nodes -key tongenRootCA.key -days &lt;span class=&quot;m&quot;&gt;1024&lt;/span&gt; -out tongenRootCA.pem
+Enter pass phrase &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; tongenRootCA.key:
 You are about to be asked to enter information that will be incorporated
 into your certificate request.
 What you are about to enter is what is called a Distinguished Name or a DN.
@@ -238,30 +260,24 @@ There are quite a few fields but you can leave some blank
 For some fields there will be a default value,
 If you enter &lt;span class=&quot;s1&quot;&gt;&amp;#39;.&amp;#39;&lt;/span&gt;, the field will be left blank.
 -----
-Country Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2 letter code&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AU&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:US
+Country Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt; letter code&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AU&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:US
 State or Province Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;full name&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Some-State&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:Minnesota
 Locality Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, city&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:Minneapolis
 Organization Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, company&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Internet Widgits Pty Ltd&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:Tongen Technologies
 Organizational Unit Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, section&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
 Common Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;e.g. server FQDN or YOUR name&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:Tongen Internet Authority
-Email Address &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+Email Address &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
-&lt;p&gt;Ok, now you&#39;re a CA! Congratulations! If you can somehow manage to get your cert to be shipped with any
+&lt;p&gt;Ok, now you’re a CA! Congratulations! If you can somehow manage to get your cert to be shipped with any
 big-name browsers or other software, you could make some serious money. But being a CA is pretty pointless
-unless you sign some SSL keys, so let&#39;s create one that we can sign. This part should be pretty familiar
-if you&#39;ve ever purchased an SSL certificate before.&lt;/p&gt;
+unless you sign some SSL keys, so let’s create one that we can sign. This part should be pretty familiar
+if you’ve ever purchased an SSL certificate before.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl genrsa -out andrewtongen.net.key 2048
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl genrsa -out andrewtongen.net.key 2048&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Now generate the corresponding CSR:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl req -new -key andrewtongen.net.key -out andrewtongen.net.csr
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl req -new -key andrewtongen.net.key -out andrewtongen.net.csr
 You are about to be asked to enter information that will be incorporated
 into your certificate request.
 What you are about to enter is what is called a Distinguished Name or a DN.
@@ -269,7 +285,7 @@ There are quite a few fields but you can leave some blank
 For some fields there will be a default value,
 If you enter &lt;span class=&quot;s1&quot;&gt;&amp;#39;.&amp;#39;&lt;/span&gt;, the field will be left blank.
 -----
-Country Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;2 letter code&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AU&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:US
+Country Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt; letter code&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AU&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:US
 State or Province Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;full name&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Some-State&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:Minnesota
 Locality Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, city&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:Minneapolis
 Organization Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, company&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Internet Widgits Pty Ltd&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:Tongen Technologies
@@ -280,74 +296,87 @@ Email Address &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
 Please enter the following &lt;span class=&quot;s1&quot;&gt;&amp;#39;extra&amp;#39;&lt;/span&gt; attributes
 to be sent with your certificate request
 A challenge password &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-An optional company name &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+An optional company name &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;p&gt;Now for the fun part. We’ll sign the SSL key we just generated with the CA certificate and key we generated earlier:&lt;/p&gt;
 
-&lt;p&gt;Now for the fun part. We&#39;ll sign the SSL key we just generated with the CA certificate and key we generated earlier:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl x509 -req -in andrewtongen.net.csr -CA path/to/tongenRootCA.pem -CAkey path/to/tongenRootCA.key -CAcreateserial -out andrewtongen.net.crt -days 1024
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl x509 -req -in andrewtongen.net.csr -CA path/to/tongenRootCA.pem -CAkey path/to/tongenRootCA.key -CAcreateserial -out andrewtongen.net.crt -days 1024
 Signature ok
 &lt;span class=&quot;nv&quot;&gt;subject&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/C&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;US/ST&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Minnesota/L&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Minneapolis/O&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Tongen Technologies/CN&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;*.andrewtongen.net
 Getting CA Private Key
-Enter pass phrase &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;path/to/tongenRootCA.key:
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+Enter pass phrase &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; path/to/tongenRootCA.key:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;p&gt;And you’re done! You can now install the SSL cert and key on your webserver for encrypted traffic.&lt;/p&gt;
 
-&lt;p&gt;And you&#39;re done! You can now install the SSL cert and key on your webserver for encrypted traffic.&lt;/p&gt;
-
-&lt;p&gt;Oh, by the way, &lt;a href=&quot;/files/tongenRootCA.pem&quot;&gt;here&#39;s&lt;/a&gt; the certificate for the CA I just created.&lt;/p&gt;
+&lt;p&gt;Oh, by the way, &lt;a href=&quot;/files/tongenRootCA.pem&quot;&gt;here’s&lt;/a&gt; the certificate for the CA I just created.&lt;/p&gt;
 </description>
-				<pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
-				<link>http://www.andrewtongen.net/2014/04/13/be-your-own-ca.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/be-your-own-ca.html</guid>
-			</item>
-		
-			<item>
-				<title>Winter Trip to Orr</title>
-				<description>&lt;p&gt;Grethe and I decided to have a little winter get-away at the cabin up north. This is a three-season cabin,
+        <pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
+        <link>http://www.andrewtongen.net/2014/04/13/be-your-own-ca.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/be-your-own-ca.html</guid>
+        
+        <category>openssl</category>
+        
+        <category>security</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Winter Trip to Orr</title>
+        <description>&lt;p&gt;Grethe and I decided to have a little winter get-away at the cabin up north. This is a three-season cabin,
 so it was a bit like winter camping. There was no running water, but there was a stove that kept the cabin
-nice and toasty. There was even antique snowmobile races at Melgeorge&#39;s, the resort right down the road.
+nice and toasty. There was even antique snowmobile races at Melgeorge’s, the resort right down the road.
 We had a great time!&lt;/p&gt;
 
 &lt;div class=&quot;gallery&quot; data-set-id=&quot;72157642408341614&quot;&gt;&lt;/div&gt;
-
 </description>
-				<pubDate>Sun, 09 Mar 2014 00:00:00 -0600</pubDate>
-				<link>http://www.andrewtongen.net/2014/03/09/orr-winter.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2014/03/09/orr-winter.html</guid>
-			</item>
-		
-			<item>
-				<title>2014 American Birkebeiner</title>
-				<description>&lt;p&gt;Back again after another year. This year&#39;s Birkie was cold with lots of new snow from the day before
+        <pubDate>Sun, 09 Mar 2014 00:00:00 -0600</pubDate>
+        <link>http://www.andrewtongen.net/2014/03/09/orr-winter.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2014/03/09/orr-winter.html</guid>
+        
+        <category>orr</category>
+        
+        <category>photos</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>2014 American Birkebeiner</title>
+        <description>&lt;p&gt;Back again after another year. This year’s Birkie was cold with lots of new snow from the day before
 making the course difficult with race times slower than expected. I still had a blast, though and I
-plan on doing it again next year. Maybe I&#39;ll be able to convince Grethe to ski with me.&lt;/p&gt;
+plan on doing it again next year. Maybe I’ll be able to convince Grethe to ski with me.&lt;/p&gt;
 
 &lt;div class=&quot;gallery&quot; data-set-id=&quot;72157642432817473&quot;&gt;&lt;/div&gt;
-
 </description>
-				<pubDate>Sat, 22 Feb 2014 00:00:00 -0600</pubDate>
-				<link>http://www.andrewtongen.net/2014/02/22/american-birkebeiner.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2014/02/22/american-birkebeiner.html</guid>
-			</item>
-		
-			<item>
-				<title>St. John New Year</title>
-				<description>&lt;p&gt;We were lucky enough to take a nice trip to the US Virgin Islands over New Year&#39;s.
+        <pubDate>Sat, 22 Feb 2014 00:00:00 -0600</pubDate>
+        <link>http://www.andrewtongen.net/2014/02/22/american-birkebeiner.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2014/02/22/american-birkebeiner.html</guid>
+        
+        <category>skiing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>St. John New Year</title>
+        <description>&lt;p&gt;We were lucky enough to take a nice trip to the US Virgin Islands over New Year’s.
 We stayed on the island of St. John. The weather was great and we had a great
 time snorkeling and relaxing on the beach. It was a 100+ degree temperature swing
-when we got home! Hopefully some day we&#39;ll get to go back.&lt;/p&gt;
+when we got home! Hopefully some day we’ll get to go back.&lt;/p&gt;
 
 &lt;div class=&quot;gallery&quot; data-set-id=&quot;72157642431508595&quot;&gt;&lt;/div&gt;
-
 </description>
-				<pubDate>Sun, 29 Dec 2013 00:00:00 -0600</pubDate>
-				<link>http://www.andrewtongen.net/2013/12/29/st-john-new-year.html</link>
-				<guid isPermaLink="true">http://www.andrewtongen.net/2013/12/29/st-john-new-year.html</guid>
-			</item>
-		
-	</channel>
+        <pubDate>Sun, 29 Dec 2013 00:00:00 -0600</pubDate>
+        <link>http://www.andrewtongen.net/2013/12/29/st-john-new-year.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2013/12/29/st-john-new-year.html</guid>
+        
+        <category>travel</category>
+        
+        <category>photos</category>
+        
+        
+      </item>
+    
+  </channel>
 </rss>

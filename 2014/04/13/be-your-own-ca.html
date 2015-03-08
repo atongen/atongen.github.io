@@ -8,18 +8,45 @@ c$$$cc$$$c $$$ "Y$c$$  $$,    $$ $$$$$$c    $$""""    Y$c$$$c$P         $$    $$
  888   888,888    Y88  888_,o8P' 888b "88bo,888oo,__   "88"888          88,   "888,_ _,88P888    Y88 `Y8bo,,,o88o888oo,__ 888    Y88
  YMM   ""` MMM     YM  MMMMP"`   MMMM   "W" """"YUMMM   "M "M"          MMM     "YMMMMMP" MMM     YM   `'YMUP"YMM""""YUMMMMMM     YM
 -->
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Be Your Own CA | Andrew Tongen's Weblog</title>
-    
-    <meta name="viewport" content="width=device-width">
-    <meta name="generator" content="jekyll"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--[if IE]><meta http-equiv="cleartype" content="on" /><![endif]-->
+
+    <title>Be Your Own CA | Tongen be Bloggin'</title>
+    <meta name="description" content="After spending so much time this week dealing with repercussions relating to the OpenSSL “Heartbleed” bug,I thought it was time to go back and properly set m...">
+    <meta name="author" content="Andrew Tongen" />
+    <meta name="version" content="2.0.0" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/media/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/media/images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/media/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/media/images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/media/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/media/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/media/images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/media/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/media/images/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/media/images/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="/assets/media/images/favicon-160x160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/media/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/media/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/media/images/favicon-16x16.png">
+    <meta name="msapplication-TileImage" content="/assets/media/images/mstile-144x144.png">
+    <meta name="msapplication-TileColor" content="#ff0000">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" media="screen, projection" href="/assets/styles/modern.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" media="screen, projection" href="/assets/styles/legacy.css" /><![endif]-->
+
     
     <meta property="og:title" content="Be Your Own CA"/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="http://www.andrewtongen.net/2014/04/13/be-your-own-ca.html"/>
-    <meta property="og:site_name" content="Andrew Tongen's Weblog"/>
+    <meta property="og:site_name" content="Tongen be Bloggin'"/>
     <meta property="fb:admins" content="100002072057741"/>
     
     
@@ -28,82 +55,92 @@ c$$$cc$$$c $$$ "Y$c$$  $$,    $$ $$$$$$c    $$""""    Y$c$$$c$P         $$    $$
     <meta property="fb:application_id" content="634024676712640"/>
     
     
+    <meta property="disqus" content="event-con"/>
+    
+    
     <meta name="ga" content="UA-19175999-2"/>
     
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <script src="/assets/js/main.js"></script>
     
 </head>
+
 <body>
-<div class="container">
-    <div class="row">
-        <div class="span12 head">
-            <h1><a href="http://www.andrewtongen.net">Andrew Tongen's Weblog</a></h1>
-            
-        </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="">
+        <img alt="AT" src="/assets/media/images/at.png" />
+        Tongen be Bloggin'
+      </a>
     </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul id="js-search-container" class="nav navbar-nav navbar-right">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="#" id="js-search"><i class="glyphicon glyphicon-search white"></i></a></li>
+      </ul>
+      <form id="js-search-form" class="navbar-form navbar-right" role="search" style="display: none;">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
 
-    <hr/>
-
-    <div class="row">
-        <div class="span9">
-          
-<div id="fb-root"></div>
-
-<div id="2014-04-13-be-your-own-ca" class="post">
+<div class="container">
   
-  <h3><a href="/2014/04/13/be-your-own-ca.html">Be Your Own CA</a></h3>
-  <p class="author">
-    April 13, 2014
-    <a href="/tags/openssl">openssl</a>, <a href="/tags/security">security</a>
+  
+  <div class="row">
+    <div class="col-sm-8 blog-main">
+      
+<div id="2014-04-13-be-your-own-ca" class="blog-post">
+
+  <h2 class="blog-post-title">
+    <a href="/2014/04/13/be-your-own-ca.html">Be Your Own CA</a>
+  </h2>
+  
+  <p class="blog-post-meta">
+    Apr 13, 2014
+    <a href="/~atongen/blog/tags/openssl">openssl</a>, <a href="/~atongen/blog/tags/security">security</a>
   </p>
-  <div class="content">
-    <p>After spending so much time this week dealing with repercussions relating to the OpenSSL "Heartbleed" bug,
+
+  <p>After spending so much time this week dealing with repercussions relating to the OpenSSL “Heartbleed” bug,
 I thought it was time to go back and properly set myself up as a CA, like I had been meaning to. Why would
 anybody want to do this? Well, there are a couple of good reasons.</p>
 
 <p>Just like a self-signed certificate, a user will still get a security warning if he visits a site that uses
-a certificate that is signed by a CA that the browser doesn't recognize, but it's trivially easy to import
+a certificate that is signed by a CA that the browser doesn’t recognize, but it’s trivially easy to import
 the generated CA into the browser as a trusted CA. Once the certificate is imported, the browser will trust
-the SSL'ed site just like it does that expensive Verisign cert. This is mainly convenient for personal
+the SSL’ed site just like it does that expensive Verisign cert. This is mainly convenient for personal
 use, for example when securely accessing data and/or services remotely from a home network.</p>
 
 <p>Another use case is securing traffic on an internal network where many services are exposed, possibly in an app
 that uses a service oriented architecture. Since these are not public-facing, you simply generate a key and
 cert for each service, and then import the CA certificate into each client application. Now your network traffic
-is encrypted and you're in control of the chain of trust. You can even use the optional "Organizational Unit (OU)"
+is encrypted and you’re in control of the chain of trust. You can even use the optional “Organizational Unit (OU)”
 field on the certificate to pass meta-data between applications in your SOA. Docker allows you to authenticate clients
 in a similar fashion, which is described <a href="http://docs.docker.io/en/latest/examples/https/">here</a>.</p>
 
-<p>Here's how you'd actually go about doing this. First, be sure you have a version of openssl that has been patched
+<p>Here’s how you’d actually go about doing this. First, be sure you have a version of openssl that has been patched
 for Heartbleed:</p>
 
-<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>openssl version -a
-OpenSSL 1.0.1e 11 Feb 2013
-built on: Mon Apr  7 20:33:19 UTC 2014
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>openssl version -a
+OpenSSL 1.0.1e <span class="m">11</span> Feb 2013
+built on: Mon Apr  <span class="m">7</span> 20:33:19 UTC 2014
 platform: debian-amd64
 options:  bn<span class="o">(</span>64,64<span class="o">)</span> rc4<span class="o">(</span>16x,int<span class="o">)</span> des<span class="o">(</span>idx,cisc,16,int<span class="o">)</span> blowfish<span class="o">(</span>idx<span class="o">)</span>
-compiler: cc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -m64 -DL_ENDIAN -DTERMIO -g -O2 -fstack-protector --param<span class="o">=</span>ssp-buffer-size<span class="o">=</span>4 -Wformat -Werror<span class="o">=</span>format-security -D_FORTIFY_SOURCE<span class="o">=</span>2 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wa,--noexecstack -Wall -DOPENSSL_NO_TLS1_2_CLIENT -DOPENSSL_MAX_TLS1_2_CIPHER_LENGTH<span class="o">=</span>50 -DMD32_REG_T<span class="o">=</span>int -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
-OPENSSLDIR: <span class="s2">&quot;/usr/lib/ssl&quot;</span>
-</code></pre>
-</div>
-
+compiler: cc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -m64 -DL_ENDIAN -DTERMIO -g -O2 -fstack-protector --param<span class="o">=</span>ssp-buffer-size<span class="o">=</span><span class="m">4</span> -Wformat -Werror<span class="o">=</span>format-security -D_FORTIFY_SOURCE<span class="o">=</span><span class="m">2</span> -Wl,-Bsymbolic-functions -Wl,-z,relro -Wa,--noexecstack -Wall -DOPENSSL_NO_TLS1_2_CLIENT -DOPENSSL_MAX_TLS1_2_CIPHER_LENGTH<span class="o">=</span><span class="m">50</span> -DMD32_REG_T<span class="o">=</span>int -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
+OPENSSLDIR: <span class="s2">&quot;/usr/lib/ssl&quot;</span></code></pre></div>
 
 <p>If it was built on April 7 or later, then you have a patched version. Now, generate the private key for your
-new CA. Be sure to include "-des3" so your key is password-protected.</p>
+new CA. Be sure to include “-des3” so your key is password-protected.</p>
 
-<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>openssl genrsa -des3 -out tongenRootCA.key 4096
-</code></pre>
-</div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>openssl genrsa -des3 -out tongenRootCA.key 4096</code></pre></div>
 
+<p>Be sure to keep this key secure. Now self-sign your own root CA key. This is apparently how all the big CA’s do it.</p>
 
-<p>Be sure to keep this key secure. Now self-sign your own root CA key. This is apparently how all the big CA's do it.</p>
-
-<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>openssl req -x509 -new -nodes -key tongenRootCA.key -days 1024 -out tongenRootCA.pem
-Enter pass phrase <span class="k">for </span>tongenRootCA.key:
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>openssl req -x509 -new -nodes -key tongenRootCA.key -days <span class="m">1024</span> -out tongenRootCA.pem
+Enter pass phrase <span class="k">for</span> tongenRootCA.key:
 You are about to be asked to enter information that will be incorporated
 into your certificate request.
 What you are about to enter is what is called a Distinguished Name or a DN.
@@ -111,30 +148,24 @@ There are quite a few fields but you can leave some blank
 For some fields there will be a default value,
 If you enter <span class="s1">&#39;.&#39;</span>, the field will be left blank.
 -----
-Country Name <span class="o">(</span>2 letter code<span class="o">)</span> <span class="o">[</span>AU<span class="o">]</span>:US
+Country Name <span class="o">(</span><span class="m">2</span> letter code<span class="o">)</span> <span class="o">[</span>AU<span class="o">]</span>:US
 State or Province Name <span class="o">(</span>full name<span class="o">)</span> <span class="o">[</span>Some-State<span class="o">]</span>:Minnesota
 Locality Name <span class="o">(</span>eg, city<span class="o">)</span> <span class="o">[]</span>:Minneapolis
 Organization Name <span class="o">(</span>eg, company<span class="o">)</span> <span class="o">[</span>Internet Widgits Pty Ltd<span class="o">]</span>:Tongen Technologies
 Organizational Unit Name <span class="o">(</span>eg, section<span class="o">)</span> <span class="o">[]</span>:
 Common Name <span class="o">(</span>e.g. server FQDN or YOUR name<span class="o">)</span> <span class="o">[]</span>:Tongen Internet Authority
-Email Address <span class="o">[]</span>:
-</code></pre>
-</div>
+Email Address <span class="o">[]</span>:</code></pre></div>
 
-
-<p>Ok, now you're a CA! Congratulations! If you can somehow manage to get your cert to be shipped with any
+<p>Ok, now you’re a CA! Congratulations! If you can somehow manage to get your cert to be shipped with any
 big-name browsers or other software, you could make some serious money. But being a CA is pretty pointless
-unless you sign some SSL keys, so let's create one that we can sign. This part should be pretty familiar
-if you've ever purchased an SSL certificate before.</p>
+unless you sign some SSL keys, so let’s create one that we can sign. This part should be pretty familiar
+if you’ve ever purchased an SSL certificate before.</p>
 
-<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>openssl genrsa -out andrewtongen.net.key 2048
-</code></pre>
-</div>
-
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>openssl genrsa -out andrewtongen.net.key 2048</code></pre></div>
 
 <p>Now generate the corresponding CSR:</p>
 
-<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>openssl req -new -key andrewtongen.net.key -out andrewtongen.net.csr
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>openssl req -new -key andrewtongen.net.key -out andrewtongen.net.csr
 You are about to be asked to enter information that will be incorporated
 into your certificate request.
 What you are about to enter is what is called a Distinguished Name or a DN.
@@ -142,7 +173,7 @@ There are quite a few fields but you can leave some blank
 For some fields there will be a default value,
 If you enter <span class="s1">&#39;.&#39;</span>, the field will be left blank.
 -----
-Country Name <span class="o">(</span>2 letter code<span class="o">)</span> <span class="o">[</span>AU<span class="o">]</span>:US
+Country Name <span class="o">(</span><span class="m">2</span> letter code<span class="o">)</span> <span class="o">[</span>AU<span class="o">]</span>:US
 State or Province Name <span class="o">(</span>full name<span class="o">)</span> <span class="o">[</span>Some-State<span class="o">]</span>:Minnesota
 Locality Name <span class="o">(</span>eg, city<span class="o">)</span> <span class="o">[]</span>:Minneapolis
 Organization Name <span class="o">(</span>eg, company<span class="o">)</span> <span class="o">[</span>Internet Widgits Pty Ltd<span class="o">]</span>:Tongen Technologies
@@ -153,30 +184,23 @@ Email Address <span class="o">[]</span>:
 Please enter the following <span class="s1">&#39;extra&#39;</span> attributes
 to be sent with your certificate request
 A challenge password <span class="o">[]</span>:
-An optional company name <span class="o">[]</span>:
-</code></pre>
-</div>
+An optional company name <span class="o">[]</span>:</code></pre></div>
 
+<p>Now for the fun part. We’ll sign the SSL key we just generated with the CA certificate and key we generated earlier:</p>
 
-<p>Now for the fun part. We'll sign the SSL key we just generated with the CA certificate and key we generated earlier:</p>
-
-<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>openssl x509 -req -in andrewtongen.net.csr -CA path/to/tongenRootCA.pem -CAkey path/to/tongenRootCA.key -CAcreateserial -out andrewtongen.net.crt -days 1024
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>openssl x509 -req -in andrewtongen.net.csr -CA path/to/tongenRootCA.pem -CAkey path/to/tongenRootCA.key -CAcreateserial -out andrewtongen.net.crt -days 1024
 Signature ok
 <span class="nv">subject</span><span class="o">=</span>/C<span class="o">=</span>US/ST<span class="o">=</span>Minnesota/L<span class="o">=</span>Minneapolis/O<span class="o">=</span>Tongen Technologies/CN<span class="o">=</span>*.andrewtongen.net
 Getting CA Private Key
-Enter pass phrase <span class="k">for </span>path/to/tongenRootCA.key:
-</code></pre>
-</div>
+Enter pass phrase <span class="k">for</span> path/to/tongenRootCA.key:</code></pre></div>
+
+<p>And you’re done! You can now install the SSL cert and key on your webserver for encrypted traffic.</p>
+
+<p>Oh, by the way, <a href="/files/tongenRootCA.pem">here’s</a> the certificate for the CA I just created.</p>
 
 
-<p>And you're done! You can now install the SSL cert and key on your webserver for encrypted traffic.</p>
-
-<p>Oh, by the way, <a href="/files/tongenRootCA.pem">here's</a> the certificate for the CA I just created.</p>
-
-  </div>
   
-  <div class="fb-like" data-href="http://www.andrewtongen.net/2014/04/13/be-your-own-ca.html" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
-  
+
 </div>
 
 
@@ -193,123 +217,165 @@ Enter pass phrase <span class="k">for </span>path/to/tongenRootCA.key:
 
 
 
-<div class="fb-comments" data-href="http://www.andrewtongen.net/2014/04/13/be-your-own-ca.html" data-numposts="10" data-colorscheme="dark" data-width="100%"></div>
+<div id="disqus_thread"></div>
 
 
-        </div>
-        <div class="span3">
-            <img src="/assets/img/andrew_tongen.jpg" class="img-rounded" alt="Andrew Tongen" title="Andrew Tongen" />
+    </div><!-- /.blog-main -->
+    <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+      <div class="sidebar-module sidebar-module-inset">
+  <img src="/assets/media/images/andrew_tongen.jpg" class="img-rounded" alt="Andrew Tongen" title="Andrew Tongen" />
 
-            <p>
-                My name is Andrew Tongen, and I live in Minneapolis, MN with my wife <a href="http://andrewandgrethe.com/" target="_blank">Grethe</a>
-                and my dog <a href="/assets/img/obi.jpg" target="_blank">Obi</a>.
-            </p>
+  <p>
+  My name is <a href="/about.html">Andrew Tongen</a>, and I live in Minneapolis, MN with my wife <a href="http://andrewandgrethe.com/" target="_blank">Grethe</a>
+  and my dog <a href="/assets/media/images/obi.jpg">Obi</a>.
+  </p>
 
-            <p>
-                I'm a software engineer at <a href="http://nerdery.com/people#at" target="_blank">The Nerdery</a>.
-                I enjoy building things for the web using ruby, javascript, and go.
-            </p>
-
-            <p><strong>Recent Posts</strong></p>
-            <ul class="unstyled">
-                
-                <li><a href="/2014/08/17/keybase.html">Keybase.io</a></li>
-                
-                <li><a href="/2014/08/04/banff.html">Trip to Banff, CA</a></li>
-                
-                <li><a href="/2014/07/04/tanzania.html">Tanzania Trip</a></li>
-                
-                <li><a href="/2014/04/13/whale.html">SVG+JS Whale</a></li>
-                
-                <li><a href="/2014/04/13/seen.html">seen.js</a></li>
-                
-                <li><a href="/2014/04/13/jekyll-plugins-on-github.html">Jekyll Plugins Hosted on github.io</a></li>
-                
-                <li><a href="/2014/04/13/be-your-own-ca.html">Be Your Own CA</a></li>
-                
-                <li><a href="/2014/03/09/orr-winter.html">Winter Trip to Orr</a></li>
-                
-                <li><a href="/2014/02/22/american-birkebeiner.html">2014 American Birkebeiner</a></li>
-                
-                <li><a href="/2013/12/29/st-john-new-year.html">St. John New Year</a></li>
-                
-            </ul>
-            <p><a href="/archive.html">All Posts</a></p>
-
-            
-            <p><strong>Tags</strong></p>
-            <ul class="unstyled">
-                
-                <li><a href="/tags/photos/index.html">photos</a> (6)</li>
-                
-                <li><a href="/tags/skiing/index.html">skiing</a> (3)</li>
-                
-                <li><a href="/tags/lanesboro/index.html">lanesboro</a> (1)</li>
-                
-                <li><a href="/tags/alaska/index.html">alaska</a> (2)</li>
-                
-                <li><a href="/tags/javascript/index.html">javascript</a> (5)</li>
-                
-                <li><a href="/tags/ruby/index.html">ruby</a> (3)</li>
-                
-                <li><a href="/tags/travel/index.html">travel</a> (4)</li>
-                
-                <li><a href="/tags/orr/index.html">orr</a> (1)</li>
-                
-                <li><a href="/tags/openssl/index.html">openssl</a> (1)</li>
-                
-                <li><a href="/tags/security/index.html">security</a> (2)</li>
-                
-            </ul>
-            
-        </div>
-    </div>
-
-    <hr>
-
-    <div id="footer">
-        <p class="copy">
-            &copy; Andrew Tongen 2015
-        </p>
-        <ul class="social">
-            <li>
-                <a href="http://www.facebook.com/atongen" target="_blank" title="Andrew Tongen on Facebook">
-                    <span class="facebook">Andrew Tongen on Facebook</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://twitter.com/atongen" target="_blank" title="Andrew Tongen on Twitter">
-                    <span class="twitter">Andrew Tongen on Twitter</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://www.linkedin.com/in/atongen" target="_blank" title="Andrew Tongen on LinkedIn">
-                    <span class="linkedin">Andrew Tongen on LinkedIn</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/atongen" target="_blank" title="Andrew Tongen on Github">
-                    <span class="github">Andrew Tongen on Github</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://plus.google.com/u/0/107928400451513603668" target="_blank" title="Andrew Tongen on Google+">
-                    <span class="google_plus">Andrew Tongen on Google+</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://www.reddit.com/user/tongman/" target="_blank" title="Andrew Tongen on Reddit">
-                    <span class="reddit">Andrew Tongen on Reddit</span>
-                </a>
-            </li>
-            <li>
-                <a href="/feed.xml" title="Syndication">
-                    <span class="feed">Syndication</span>
-                </a>
-            </li>
-        </ul>
-        <div style="clear: both;"></div>
-    </div>
+  <p>
+  I'm a software engineer at <a href="http://nerdery.com/people#at" target="_blank">The Nerdery</a>.
+  I enjoy building things for the web using ruby, javascript, and go.
+  </p>
 </div>
+
+      <div class="sidebar-module">
+  <h4>Recent Posts</h4>
+  <ol class="list-unstyled">
+    
+    <li><a href="/2014/08/17/keybase.html">Keybase.io</a></li>
+    
+    <li><a href="/2014/08/04/banff.html">Trip to Banff, CA</a></li>
+    
+    <li><a href="/2014/07/04/tanzania.html">Tanzania Trip</a></li>
+    
+    <li><a href="/2014/04/13/whale.html">SVG+JS Whale</a></li>
+    
+    <li><a href="/2014/04/13/seen.html">seen.js</a></li>
+    
+    <li><a href="/2014/04/13/jekyll-plugins-on-github.html">Jekyll Plugins Hosted on github.io</a></li>
+    
+    <li><a href="/2014/04/13/be-your-own-ca.html">Be Your Own CA</a></li>
+    
+    <li><a href="/2014/03/09/orr-winter.html">Winter Trip to Orr</a></li>
+    
+    <li><a href="/2014/02/22/american-birkebeiner.html">2014 American Birkebeiner</a></li>
+    
+    <li><a href="/2013/12/29/st-john-new-year.html">St. John New Year</a></li>
+    
+  </ol>
+  <p><a href="/archive.html">All Posts</a></p>
+</div>
+
+      
+<div class="sidebar-module">
+  <h4>Tags</h4>
+  <ol class="list-unstyled">
+    
+    <li><a href="/tags/photos/index.html"">photos</a> (6)</li>
+    
+    <li><a href="/tags/skiing/index.html"">skiing</a> (3)</li>
+    
+    <li><a href="/tags/lanesboro/index.html"">lanesboro</a> (1)</li>
+    
+    <li><a href="/tags/alaska/index.html"">alaska</a> (2)</li>
+    
+    <li><a href="/tags/javascript/index.html"">javascript</a> (5)</li>
+    
+    <li><a href="/tags/ruby/index.html"">ruby</a> (3)</li>
+    
+    <li><a href="/tags/travel/index.html"">travel</a> (4)</li>
+    
+    <li><a href="/tags/orr/index.html"">orr</a> (1)</li>
+    
+    <li><a href="/tags/openssl/index.html"">openssl</a> (1)</li>
+    
+    <li><a href="/tags/security/index.html"">security</a> (2)</li>
+    
+  </ol>
+</div>
+
+
+    </div><!-- /.blog-sidebar -->
+  </div><!-- /.row -->
+  <footer class="blog-footer">
+  <p class="copy">
+  &copy; Andrew Tongen 2015
+  </p>
+  <ul class="social">
+    <li>
+    <a href="http://www.facebook.com/atongen" target="_blank" title="Andrew Tongen on Facebook">
+      <span class="facebook">Andrew Tongen on Facebook</span>
+    </a>
+    </li>
+    <li>
+    <a href="http://twitter.com/atongen" target="_blank" title="Andrew Tongen on Twitter">
+      <span class="twitter">Andrew Tongen on Twitter</span>
+    </a>
+    </li>
+    <li>
+    <a href="http://www.linkedin.com/in/atongen" target="_blank" title="Andrew Tongen on LinkedIn">
+      <span class="linkedin">Andrew Tongen on LinkedIn</span>
+    </a>
+    </li>
+    <li>
+    <a href="https://www.flickr.com/photos/atongen/" target="_blank" title="Andrew Tongen on Flickr">
+      <span class="flickr">Andrew Tongen on Flickr</span>
+    </a>
+    </li>
+    <li>
+    <a href="https://github.com/atongen" target="_blank" title="Andrew Tongen on Github">
+      <span class="github">Andrew Tongen on Github</span>
+    </a>
+    </li>
+    <li>
+    <a href="https://plus.google.com/u/0/107928400451513603668" target="_blank" title="Andrew Tongen on Google+">
+      <span class="google_plus">Andrew Tongen on Google+</span>
+    </a>
+    </li>
+    <li>
+    <a href="http://www.reddit.com/user/tongman/" target="_blank" title="Andrew Tongen on Reddit">
+      <span class="reddit">Andrew Tongen on Reddit</span>
+    </a>
+    </li>
+    <li>
+    <a href="https://instagram.com/atongen/" target="_blank" title="Andrew Tongen on Instgram">
+      <span class="instagram">Andrew Tongen on Instagram</span>
+    </a>
+    </li>
+    <li>
+    <a href="https://news.ycombinator.com/user?id=atongen" target="_blank" title="Andrew Tongen on Hacker News">
+      <span class="hackernews">Andrew Tongen on Hacker News</span>
+    </a>
+    </li>
+    <li>
+    <a href="http://stackoverflow.com/users/3304077/atongen" target="_blank" title="Andrew Tongen on Stack Overflow">
+      <span class="stackoverflow">Andrew Tongen on Stack Overflow</span>
+    </a>
+    </li>
+    <li>
+    <a href="/feed.xml" title="Syndication">
+      <span class="feed">Syndication</span>
+    </a>
+    </li>
+  </ul>
+</footer>
+
+</div>
+<script type="text/javascript">
+  // Console handling for inferior browsers
+  if (!(window.console && console.log)) {
+      (function() {
+          var noop = function() {};
+          var methods = ['assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error', 'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log', 'markTimeline', 'profile', 'profileEnd', 'markTimeline', 'table', 'time', 'timeEnd', 'timeStamp', 'trace', 'warn'];
+          var length = methods.length;
+          var console = window.console = {};
+          while (length--) {
+              console[methods[length]] = noop;
+          }
+      }());
+  }
+</script>
+
+
+<script src="/assets/scripts/modules/post.js"></script>
+
 </body>
 </html>
