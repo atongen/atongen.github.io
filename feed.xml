@@ -5,8 +5,8 @@
     <description>Andrew Tongen&#39;s weblog, scratchpad, idea dumping ground, journal, etc.</description>
     <link>http://www.andrewtongen.net/</link>
     <atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Mar 2015 11:13:18 -0500</pubDate>
-    <lastBuildDate>Sun, 22 Mar 2015 11:13:18 -0500</lastBuildDate>
+    <pubDate>Sun, 22 Mar 2015 15:00:20 -0500</pubDate>
+    <lastBuildDate>Sun, 22 Mar 2015 15:00:20 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -79,6 +79,22 @@ still had fun ice fishing and watching antique snowmobile races at &lt;a href=&q
         <category>orr</category>
         
         <category>photos</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Birkie Fever 2015</title>
+        <description>&lt;p&gt;I completed the birkie again this year for the third year in a row, and
+had a blast doing it! I’m already excited again for next year’s ski season!&lt;/p&gt;
+
+&lt;p&gt;If I look pretty tired this photo, it’s because I am.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://www.andrewtongen.net/2015/02/21/birkie-fever.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2015/02/21/birkie-fever.html</guid>
+        
+        <category>skiing</category>
         
         
       </item>
@@ -391,26 +407,6 @@ Enter pass phrase &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; path/to/tonge
         <category>openssl</category>
         
         <category>security</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Winter Trip to Orr</title>
-        <description>&lt;p&gt;Grethe and I decided to have a little winter get-away at the cabin up north. This is a three-season cabin,
-so it was a bit like winter camping. There was no running water, but there was a stove that kept the cabin
-nice and toasty. There was even antique snowmobile races at Melgeorge’s, the resort right down the road.
-We had a great time!&lt;/p&gt;
-
-&lt;div class=&quot;gallery&quot; data-set-id=&quot;72157642408341614&quot;&gt;&lt;/div&gt;
-</description>
-        <pubDate>Sun, 09 Mar 2014 00:00:00 -0600</pubDate>
-        <link>http://www.andrewtongen.net/2014/03/09/orr-winter.html</link>
-        <guid isPermaLink="true">http://www.andrewtongen.net/2014/03/09/orr-winter.html</guid>
-        
-        <category>orr</category>
-        
-        <category>photos</category>
         
         
       </item>
