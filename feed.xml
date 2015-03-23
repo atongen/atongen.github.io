@@ -5,8 +5,8 @@
     <description>Andrew Tongen&#39;s weblog, scratchpad, idea dumping ground, journal, etc.</description>
     <link>http://www.andrewtongen.net/</link>
     <atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Mar 2015 15:45:54 -0500</pubDate>
-    <lastBuildDate>Sun, 22 Mar 2015 15:45:54 -0500</lastBuildDate>
+    <pubDate>Sun, 22 Mar 2015 19:36:51 -0500</pubDate>
+    <lastBuildDate>Sun, 22 Mar 2015 19:36:51 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -95,6 +95,112 @@ had a blast doing it! I’m already excited again for next year’s ski season!&
         <guid isPermaLink="true">http://www.andrewtongen.net/2015/02/21/birkie-fever.html</guid>
         
         <category>skiing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>NAS Build</title>
+        <description>&lt;p&gt;The build of my new desktop system earlier this year went so well that I thought
+it’d be fun to build a NAS (Network Attached Storage) system running FreeNAS
+for my home network.&lt;/p&gt;
+
+&lt;p&gt;After a little research, I decided to base the system on one of the new,
+super-efficient
+&lt;a href=&quot;http://ark.intel.com/products/codename/54859/Avoton&quot;&gt;Intel Avoton&lt;/a&gt;
+system-on-a-chip boards. I decided to go with the
+&lt;a href=&quot;http://www.supermicro.com/products/motherboard/Atom/X10/A1SRi-2758F.cfm&quot;&gt;Supermicro Atom C2758&lt;/a&gt;,
+which seemed perfect for a NAS machine. It had a small form factor (mini-itx) and
+allowed me to make use of server-grade ECC memory which is especially powerful when
+combined with the ZFS filesystem from FreeNAS and FreeBSD.&lt;/p&gt;
+
+&lt;p&gt;I’ve been incredibly happy with the result, especially after upgrading serveral
+components on my home network so that I could take advantage of gigabit ethernet speeds.
+I can now stream media to both of my raspberry pi’s simulaneously,
+while backing up photos from my desktop without noticing any slowdown
+from the network or the NAS.&lt;/p&gt;
+
+&lt;div class=&quot;gallery&quot; data-set-id=&quot;72157651494910172&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://pcpartpicker.com/p/jtgLbv&quot;&gt;PCPartPicker part list&lt;/a&gt; / &lt;a href=&quot;http://pcpartpicker.com/p/jtgLbv/by_merchant/&quot;&gt;Price breakdown by merchant&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Type&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Item&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Price&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd10efrx&quot;&gt;Western Digital Red 1TB 3.5” 5400RPM Internal Hard Drive&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$63.95 @ SuperBiiz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd10efrx&quot;&gt;Western Digital Red 1TB 3.5” 5400RPM Internal Hard Drive&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$63.95 @ SuperBiiz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd10efrx&quot;&gt;Western Digital Red 1TB 3.5” 5400RPM Internal Hard Drive&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$63.95 @ SuperBiiz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd10efrx&quot;&gt;Western Digital Red 1TB 3.5” 5400RPM Internal Hard Drive&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$63.95 @ SuperBiiz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd10efrx&quot;&gt;Western Digital Red 1TB 3.5” 5400RPM Internal Hard Drive&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$63.95 @ SuperBiiz&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Case&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://pcpartpicker.com/part/fractal-design-case-fdcanode304bl&quot;&gt;Fractal Design Node 304 Mini ITX Tower Case&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$79.99 @ Newegg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Power Supply&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;http://pcpartpicker.com/part/seasonic-power-supply-ss400fl2&quot;&gt;SeaSonic X Series 400W 80+ Platinum Certified Fully-Modular ATX Power Supply&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$114.99 @ Amazon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Supermicro Atom C2758 64GB DDR3 PCIE SATA USB Mini ITX DDR3 1333 NA Motherboards MBD-A1SRI-2758F-O&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$330.50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Kingston Technology ValueRAM 8GB 1600MHz DDR3L PC3-12800 ECC CL11 1.35V SODIMM Notebook Memory KVR16LSE11/8&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;$107.99&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;em&gt;Prices include shipping, taxes, rebates, and discounts&lt;/em&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;$953.22&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Generated by &lt;a href=&quot;http://pcpartpicker.com&quot;&gt;PCPartPicker&lt;/a&gt; 2015-03-22 20:15 EDT-0400&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 15 Oct 2014 00:00:00 -0500</pubDate>
+        <link>http://www.andrewtongen.net/2014/10/15/nas-build.html</link>
+        <guid isPermaLink="true">http://www.andrewtongen.net/2014/10/15/nas-build.html</guid>
+        
+        <category>computer_build</category>
         
         
       </item>
@@ -300,113 +406,6 @@ without worrying about .git directory.&lt;/p&gt;
         <guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/jekyll-plugins-on-github.html</guid>
         
         <category>ruby</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Be Your Own CA</title>
-        <description>&lt;p&gt;After spending so much time this week dealing with repercussions relating to the OpenSSL “Heartbleed” bug,
-I thought it was time to go back and properly set myself up as a CA, like I had been meaning to. Why would
-anybody want to do this? Well, there are a couple of good reasons.&lt;/p&gt;
-
-&lt;p&gt;Just like a self-signed certificate, a user will still get a security warning if he visits a site that uses
-a certificate that is signed by a CA that the browser doesn’t recognize, but it’s trivially easy to import
-the generated CA into the browser as a trusted CA. Once the certificate is imported, the browser will trust
-the SSL’ed site just like it does that expensive Verisign cert. This is mainly convenient for personal
-use, for example when securely accessing data and/or services remotely from a home network.&lt;/p&gt;
-
-&lt;p&gt;Another use case is securing traffic on an internal network where many services are exposed, possibly in an app
-that uses a service oriented architecture. Since these are not public-facing, you simply generate a key and
-cert for each service, and then import the CA certificate into each client application. Now your network traffic
-is encrypted and you’re in control of the chain of trust. You can even use the optional “Organizational Unit (OU)”
-field on the certificate to pass meta-data between applications in your SOA. Docker allows you to authenticate clients
-in a similar fashion, which is described &lt;a href=&quot;http://docs.docker.io/en/latest/examples/https/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here’s how you’d actually go about doing this. First, be sure you have a version of openssl that has been patched
-for Heartbleed:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl version -a
-OpenSSL 1.0.1e &lt;span class=&quot;m&quot;&gt;11&lt;/span&gt; Feb 2013
-built on: Mon Apr  &lt;span class=&quot;m&quot;&gt;7&lt;/span&gt; 20:33:19 UTC 2014
-platform: debian-amd64
-options:  bn&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;64,64&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; rc4&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;16x,int&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; des&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;idx,cisc,16,int&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; blowfish&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;idx&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-compiler: cc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -m64 -DL_ENDIAN -DTERMIO -g -O2 -fstack-protector --param&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;ssp-buffer-size&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt; -Wformat -Werror&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;format-security -D_FORTIFY_SOURCE&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt; -Wl,-Bsymbolic-functions -Wl,-z,relro -Wa,--noexecstack -Wall -DOPENSSL_NO_TLS1_2_CLIENT -DOPENSSL_MAX_TLS1_2_CIPHER_LENGTH&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;50&lt;/span&gt; -DMD32_REG_T&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;int -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
-OPENSSLDIR: &lt;span class=&quot;s2&quot;&gt;&amp;quot;/usr/lib/ssl&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;If it was built on April 7 or later, then you have a patched version. Now, generate the private key for your
-new CA. Be sure to include “-des3” so your key is password-protected.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl genrsa -des3 -out tongenRootCA.key 4096&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Be sure to keep this key secure. Now self-sign your own root CA key. This is apparently how all the big CA’s do it.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl req -x509 -new -nodes -key tongenRootCA.key -days &lt;span class=&quot;m&quot;&gt;1024&lt;/span&gt; -out tongenRootCA.pem
-Enter pass phrase &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; tongenRootCA.key:
-You are about to be asked to enter information that will be incorporated
-into your certificate request.
-What you are about to enter is what is called a Distinguished Name or a DN.
-There are quite a few fields but you can leave some blank
-For some fields there will be a default value,
-If you enter &lt;span class=&quot;s1&quot;&gt;&amp;#39;.&amp;#39;&lt;/span&gt;, the field will be left blank.
------
-Country Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt; letter code&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AU&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:US
-State or Province Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;full name&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Some-State&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:Minnesota
-Locality Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, city&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:Minneapolis
-Organization Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, company&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Internet Widgits Pty Ltd&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:Tongen Technologies
-Organizational Unit Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, section&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-Common Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;e.g. server FQDN or YOUR name&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:Tongen Internet Authority
-Email Address &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Ok, now you’re a CA! Congratulations! If you can somehow manage to get your cert to be shipped with any
-big-name browsers or other software, you could make some serious money. But being a CA is pretty pointless
-unless you sign some SSL keys, so let’s create one that we can sign. This part should be pretty familiar
-if you’ve ever purchased an SSL certificate before.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl genrsa -out andrewtongen.net.key 2048&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Now generate the corresponding CSR:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl req -new -key andrewtongen.net.key -out andrewtongen.net.csr
-You are about to be asked to enter information that will be incorporated
-into your certificate request.
-What you are about to enter is what is called a Distinguished Name or a DN.
-There are quite a few fields but you can leave some blank
-For some fields there will be a default value,
-If you enter &lt;span class=&quot;s1&quot;&gt;&amp;#39;.&amp;#39;&lt;/span&gt;, the field will be left blank.
------
-Country Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt; letter code&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;AU&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:US
-State or Province Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;full name&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Some-State&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:Minnesota
-Locality Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, city&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:Minneapolis
-Organization Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, company&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Internet Widgits Pty Ltd&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;:Tongen Technologies
-Organizational Unit Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;eg, section&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-Common Name &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;e.g. server FQDN or YOUR name&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:*.andrewtongen.net
-Email Address &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-
-Please enter the following &lt;span class=&quot;s1&quot;&gt;&amp;#39;extra&amp;#39;&lt;/span&gt; attributes
-to be sent with your certificate request
-A challenge password &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:
-An optional company name &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Now for the fun part. We’ll sign the SSL key we just generated with the CA certificate and key we generated earlier:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;openssl x509 -req -in andrewtongen.net.csr -CA path/to/tongenRootCA.pem -CAkey path/to/tongenRootCA.key -CAcreateserial -out andrewtongen.net.crt -days 1024
-Signature ok
-&lt;span class=&quot;nv&quot;&gt;subject&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/C&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;US/ST&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Minnesota/L&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Minneapolis/O&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Tongen Technologies/CN&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;*.andrewtongen.net
-Getting CA Private Key
-Enter pass phrase &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; path/to/tongenRootCA.key:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And you’re done! You can now install the SSL cert and key on your webserver for encrypted traffic.&lt;/p&gt;
-
-&lt;p&gt;Oh, by the way, &lt;a href=&quot;/files/tongenRootCA.pem&quot;&gt;here’s&lt;/a&gt; the certificate for the CA I just created.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 13 Apr 2014 00:00:00 -0500</pubDate>
-        <link>http://www.andrewtongen.net/2014/04/13/be-your-own-ca.html</link>
-        <guid isPermaLink="true">http://www.andrewtongen.net/2014/04/13/be-your-own-ca.html</guid>
-        
-        <category>openssl</category>
-        
-        <category>security</category>
         
         
       </item>

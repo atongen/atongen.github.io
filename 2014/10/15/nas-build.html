@@ -14,8 +14,8 @@ c$$$cc$$$c $$$ "Y$c$$  $$,    $$ $$$$$$c    $$""""    Y$c$$$c$P         $$    $$
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--[if IE]><meta http-equiv="cleartype" content="on" /><![endif]-->
 
-    <title>2013 American Birkebeiner | Tongen be Bloggin'</title>
-    <meta name="description" content="Yesterday I finished my first Birkie! The weather was great for skiing and the event was really well done.I plan on coming back next year to get an even bett...">
+    <title>NAS Build | Tongen be Bloggin'</title>
+    <meta name="description" content="The build of my new desktop system earlier this year went so well that I thoughtit’d be fun to build a NAS (Network Attached Storage) system running FreeNASf...">
     <meta name="author" content="Andrew Tongen" />
     <meta name="version" content="2.0.0" />
 
@@ -43,9 +43,9 @@ c$$$cc$$$c $$$ "Y$c$$  $$,    $$ $$$$$$c    $$""""    Y$c$$$c$P         $$    $$
     <!--[if lte IE 8]><link rel="stylesheet" media="screen, projection" href="/assets/styles/legacy.css" /><![endif]-->
 
     
-    <meta property="og:title" content="2013 American Birkebeiner"/>
+    <meta property="og:title" content="NAS Build"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:url" content="http://www.andrewtongen.net/2013/02/24/american-birkebeiner.html"/>
+    <meta property="og:url" content="http://www.andrewtongen.net/2014/10/15/nas-build.html"/>
     <meta property="og:site_name" content="Tongen be Bloggin'"/>
     <meta property="fb:admins" content="100002072057741"/>
     
@@ -93,31 +93,114 @@ c$$$cc$$$c $$$ "Y$c$$  $$,    $$ $$$$$$c    $$""""    Y$c$$$c$P         $$    $$
   <div class="row">
     <div class="col-sm-8 blog-main">
       
-<div id="fb-root"></div>
-
-<div id="2013-02-24-american-birkebeiner" class="blog-post">
+<div id="2014-10-15-nas-build" class="blog-post">
 
   <h2 class="blog-post-title">
-    <a href="/2013/02/24/american-birkebeiner.html">2013 American Birkebeiner</a>
+    <a href="/2014/10/15/nas-build.html">NAS Build</a>
   </h2>
   
-  <img src="http://farm8.staticflickr.com/7181/13180785864_1593a9f850_o.jpg" alt="Post Header Image" class="header-image" />
-  
   <p class="blog-post-meta">
-    Feb 24, 2013
-    <a href="/~atongen/blog/tags/skiing">skiing</a>
-    - <a href="https://github.com/atongen/atongen.github.io/commits/master/2013/02/24/american-birkebeiner.html">history</a>
+    Oct 15, 2014
+    <a href="/~atongen/blog/tags/computer_build">computer_build</a>
+    - <a href="https://github.com/atongen/atongen.github.io/commits/master/2014/10/15/nas-build.html">history</a>
   </p>
 
-  <p>Yesterday I finished my first Birkie! The weather was great for skiing and the event was really well done.
-I plan on coming back next year to get an even better time!
-Thanks to all who donated to my JDRF fund raising campaign.</p>
+  <p>The build of my new desktop system earlier this year went so well that I thought
+it’d be fun to build a NAS (Network Attached Storage) system running FreeNAS
+for my home network.</p>
 
-<p>The photo above is from the lobby of the Telemark Lodge, which is the starting point for the race.</p>
+<p>After a little research, I decided to base the system on one of the new,
+super-efficient
+<a href="http://ark.intel.com/products/codename/54859/Avoton">Intel Avoton</a>
+system-on-a-chip boards. I decided to go with the
+<a href="http://www.supermicro.com/products/motherboard/Atom/X10/A1SRi-2758F.cfm">Supermicro Atom C2758</a>,
+which seemed perfect for a NAS machine. It had a small form factor (mini-itx) and
+allowed me to make use of server-grade ECC memory which is especially powerful when
+combined with the ZFS filesystem from FreeNAS and FreeBSD.</p>
+
+<p>I’ve been incredibly happy with the result, especially after upgrading serveral
+components on my home network so that I could take advantage of gigabit ethernet speeds.
+I can now stream media to both of my raspberry pi’s simulaneously,
+while backing up photos from my desktop without noticing any slowdown
+from the network or the NAS.</p>
+
+<div class="gallery" data-set-id="72157651494910172"></div>
+
+<p><a href="http://pcpartpicker.com/p/jtgLbv">PCPartPicker part list</a> / <a href="http://pcpartpicker.com/p/jtgLbv/by_merchant/">Price breakdown by merchant</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Type</th>
+      <th style="text-align: left">Item</th>
+      <th style="text-align: left">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Storage</strong></td>
+      <td style="text-align: left"><a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd10efrx">Western Digital Red 1TB 3.5” 5400RPM Internal Hard Drive</a></td>
+      <td style="text-align: left">$63.95 @ SuperBiiz</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Storage</strong></td>
+      <td style="text-align: left"><a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd10efrx">Western Digital Red 1TB 3.5” 5400RPM Internal Hard Drive</a></td>
+      <td style="text-align: left">$63.95 @ SuperBiiz</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Storage</strong></td>
+      <td style="text-align: left"><a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd10efrx">Western Digital Red 1TB 3.5” 5400RPM Internal Hard Drive</a></td>
+      <td style="text-align: left">$63.95 @ SuperBiiz</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Storage</strong></td>
+      <td style="text-align: left"><a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd10efrx">Western Digital Red 1TB 3.5” 5400RPM Internal Hard Drive</a></td>
+      <td style="text-align: left">$63.95 @ SuperBiiz</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Storage</strong></td>
+      <td style="text-align: left"><a href="http://pcpartpicker.com/part/western-digital-internal-hard-drive-wd10efrx">Western Digital Red 1TB 3.5” 5400RPM Internal Hard Drive</a></td>
+      <td style="text-align: left">$63.95 @ SuperBiiz</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Case</strong></td>
+      <td style="text-align: left"><a href="http://pcpartpicker.com/part/fractal-design-case-fdcanode304bl">Fractal Design Node 304 Mini ITX Tower Case</a></td>
+      <td style="text-align: left">$79.99 @ Newegg</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Power Supply</strong></td>
+      <td style="text-align: left"><a href="http://pcpartpicker.com/part/seasonic-power-supply-ss400fl2">SeaSonic X Series 400W 80+ Platinum Certified Fully-Modular ATX Power Supply</a></td>
+      <td style="text-align: left">$114.99 @ Amazon</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Other</strong></td>
+      <td style="text-align: left">Supermicro Atom C2758 64GB DDR3 PCIE SATA USB Mini ITX DDR3 1333 NA Motherboards MBD-A1SRI-2758F-O</td>
+      <td style="text-align: left">$330.50</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Other</strong></td>
+      <td style="text-align: left">Kingston Technology ValueRAM 8GB 1600MHz DDR3L PC3-12800 ECC CL11 1.35V SODIMM Notebook Memory KVR16LSE11/8</td>
+      <td style="text-align: left">$107.99</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"><em>Prices include shipping, taxes, rebates, and discounts</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"><strong>Total</strong></td>
+      <td style="text-align: left"><strong>$953.22</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">Generated by <a href="http://pcpartpicker.com">PCPartPicker</a> 2015-03-22 20:15 EDT-0400</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
 
 
-  
-  <div class="fb-like" data-href="http://www.andrewtongen.net/2013/02/24/american-birkebeiner.html" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
   
 
 </div>
@@ -126,18 +209,18 @@ Thanks to all who donated to my JDRF fund raising campaign.</p>
 <h3>Related Posts</h3>
 <ul>
   
-    <li><span>December 29, 2013</span> &raquo; <a href="/2013/12/29/st-john-new-year.html">St. John New Year</a></li>
+    <li><span>March 22, 2014</span> &raquo; <a href="/2014/03/22/computer-build.html">Computer Build</a></li>
   
-    <li><span>October 28, 2012</span> &raquo; <a href="/2012/10/28/jdrf-donations-berkie.html">Donate to the JDRF and support me in the Berkie!</a></li>
+    <li><span>April 13, 2014</span> &raquo; <a href="/2014/04/13/be-your-own-ca.html">Be Your Own CA</a></li>
   
-    <li><span>November 10, 2012</span> &raquo; <a href="/2012/11/10/i-reached-my-goal.html">I Reached My Goal</a></li>
+    <li><span>July 04, 2014</span> &raquo; <a href="/2014/07/04/tanzania.html">Tanzania Trip</a></li>
   
 </ul>
 
 
 
 
-<div class="fb-comments" data-href="http://www.andrewtongen.net//2013/02/24/american-birkebeiner.html" data-numposts="10" data-colorscheme="dark" data-width="100%"></div>
+<div id="disqus_thread"></div>
 
 
     </div><!-- /.blog-main -->
