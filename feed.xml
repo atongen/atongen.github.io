@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tongen be Bloggin&#39;</title>
+    <title>Sparse, Biased and Noisy</title>
     <description>Andrew Tongen&#39;s weblog, scratchpad, idea dumping ground, journal, etc.</description>
     <link>http://www.andrewtongen.net/</link>
     <atom:link href="http://www.andrewtongen.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 Sep 2015 13:42:41 -0500</pubDate>
-    <lastBuildDate>Sun, 27 Sep 2015 13:42:41 -0500</lastBuildDate>
+    <pubDate>Sun, 24 Jul 2016 11:57:14 -0500</pubDate>
+    <lastBuildDate>Sun, 24 Jul 2016 11:57:14 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -271,8 +271,8 @@ I’m not sure, but if you’d like to play along, you can send me an encrypted 
   &lt;option value=&quot;keybase&quot;&gt;atongen keybase dot io&lt;/option&gt;
 &lt;/select&gt;&lt;/p&gt;
 
-&lt;p&gt;Then, type your message here:
-&lt;textarea class=&quot;js-plaintext&quot;&gt;&lt;/textarea&gt;&lt;/p&gt;
+&lt;p&gt;Then, type your message here:&lt;/p&gt;
+&lt;textarea class=&quot;js-plaintext&quot;&gt;&lt;/textarea&gt;
 &lt;pre&gt;&lt;code class=&quot;js-encrypted&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;And send me the result.&lt;/p&gt;
