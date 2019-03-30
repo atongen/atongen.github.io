@@ -106,21 +106,21 @@ this limitation, one of which is described here: <a href="http://www.sitepoint.c
 
 <p>Another approach involves two git repos: one for the jekyll code, and another one for the generated static
 html/js/css/image assets. Assuming you already have a jekyll site setup, this is how you’d get started.
-After you’ve run <code>jekyll build</code>, cd to _site and initialize a git repo, add all the files and commit:</p>
+After you’ve run <code class="highlighter-rouge">jekyll build</code>, cd to _site and initialize a git repo, add all the files and commit:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd </span>_site
-<span class="nv">$ </span>git init .
-<span class="nv">$ </span>git commit -a -m <span class="s1">&#39;Intial commit&#39;</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd </span>_site
+<span class="nv">$ </span>git init <span class="nb">.</span>
+<span class="nv">$ </span>git commit <span class="nt">-a</span> <span class="nt">-m</span> <span class="s1">'Intial commit'</span></code></pre></figure>
 
 <p>Now move the resuling .git directory so that it is a sibling of the jekyll directory,
 and give it a more descriptive name:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>mv .git ../../atongen.github.io</code></pre></div>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">mv</span> .git ../../atongen.github.io</code></pre></figure>
 
 <p>Finally, set the git core.worktree configuration item so that it points back to the static html in _site:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd</span> ../../atongen.github.io
-<span class="nv">$ </span>git config core.worktree path/to/jekyll/_site</code></pre></div>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd</span> ../../atongen.github.io
+<span class="nv">$ </span>git config core.worktree path/to/jekyll/_site</code></pre></figure>
 
 <p>At this point, the contents of your static html directory will <em>look</em> like a bare git repo, but it’s not!
 It just has a detached work tree. You can now push this repo to your hosted github user or project repo.
@@ -229,7 +229,7 @@ without worrying about .git directory.</p>
   </div><!-- /.row -->
   <footer class="blog-footer">
   <p class="copy">
-  &copy; Andrew Tongen 2016
+  &copy; Andrew Tongen 2019
   </p>
   <ul class="social">
     <li>
